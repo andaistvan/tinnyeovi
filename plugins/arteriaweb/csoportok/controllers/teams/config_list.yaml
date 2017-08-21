@@ -1,0 +1,11 @@
+title: Teams
+modelClass: Arteriaweb\Csoportok\Models\Team
+list: $/arteriaweb/csoportok/models/team/columns.yaml
+recordUrl: 'arteriaweb/csoportok/teams/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'

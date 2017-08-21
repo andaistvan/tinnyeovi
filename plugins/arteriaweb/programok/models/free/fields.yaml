@@ -1,0 +1,32 @@
+fields:
+    title_free:
+        label: 'Program neve'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    pedagogus:
+        label: Pedagógus
+        oc.commentPosition: ''
+        span: left
+        type: text
+    slug:
+        label: slug
+        oc.commentPosition: ''
+        span: auto
+        hidden: 1
+        preset:
+            field: title_free
+            type: slug
+        type: text
+    datum:
+        label: dátum
+        oc.commentPosition: ''
+        mode: date
+        span: left
+        type: datepicker
+    ido:
+        label: Idő
+        oc.commentPosition: ''
+        mode: time
+        span: left
+        type: datepicker

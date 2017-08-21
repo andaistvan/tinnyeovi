@@ -1,0 +1,52 @@
+fields:
+    title_pays:
+        label: 'Program neve'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    slug:
+        label: slug
+        oc.commentPosition: ''
+        span: right
+        hidden: 1
+        preset:
+            field: title_pays
+            type: slug
+        type: text
+    pedagogus:
+        label: 'Foglalkozás vezetők'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    fizetes_section:
+        label: Ár
+        span: full
+        type: section
+    price:
+        label: Ár
+        oc.commentPosition: ''
+        span: left
+        default: '0'
+        type: number
+    fiz_hatarido:
+        label: 'Fizetési határidő'
+        oc.commentPosition: ''
+        mode: date
+        span: right
+        type: datepicker
+    ido_section:
+        label: Időpont
+        span: full
+        type: section
+    datum:
+        label: Dátum
+        oc.commentPosition: ''
+        mode: date
+        span: left
+        type: datepicker
+    ido:
+        label: Időpont
+        oc.commentPosition: ''
+        mode: time
+        span: auto
+        type: datepicker

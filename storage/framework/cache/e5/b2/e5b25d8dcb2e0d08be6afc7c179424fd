@@ -1,0 +1,146 @@
+1503264392a:1:{s:13:"kapcsolat.htm";a:10:{s:8:"fileName";s:13:"kapcsolat.htm";s:7:"content";s:2784:"title = "kapcsolat"
+url = "/kapcsolat"
+layout = "main-layout"
+is_hidden = 0
+
+[genericForm contactForm]
+rules[name] = "required"
+rules[phone] = "required"
+rules[email] = "required"
+rules_messages[name.required] = "Név megadása kötelező!"
+rules_messages[phone.required] = "Telefonszám megadása kötelező!"
+rules_messages[email.required] = "E-mail cím megadása kötelező!"
+rules_messages[email.email] = "Valós e-mail cím megadása szükséges!"
+messages_success = "Az üzenet sikeresen elküldve!"
+messages_errors = "Valami hiba történt!"
+mail_enabled = 1
+mail_subject = "Óvoda honlap üzenet"
+mail_recipients[] = "andaistvan@gmail.com"
+mail_replyto = "ovodavezeto@tinnye.hu"
+mail_resp_enabled = 1
+mail_resp_field = "email"
+mail_resp_from = "Tengerszem óvoda"
+mail_resp_subject = "Űrlap üzenet sikeresen elküldve."
+reset_form = 1
+inline_errors = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+==
+<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <h1 class="page-title">{{this.page.title}}</h1>
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+
+        <!-- ADDRESS BLOCK -->
+        <ul class="address-block">
+            <li>
+                <i class="material-icons">location_on</i>
+                <p>2086, Tinnye, Petőfi Sándor u.2.</p>
+            </li>
+            <li>
+                <i class="material-icons">phone_in_talk</i>
+                <p>+36 26 355 064</p>
+            </li>
+            <li>
+                <i class="material-icons">phone_in_talk</i>
+                <p>+36 70 458 2466</p>
+            </li>
+            <li>
+                <i class="material-icons">email</i>
+                <p><a href="mailto:ovoda@tinnye.hu">ovoda@tinnye.hu</a></p>
+            </li>
+        </ul><!-- address-block -->
+        <!-- ADDRESS BLOCK -->
+
+        <!-- GOOGLE MAP -->
+        <div class="map-cont">
+            <img src="{{ 'assets/images/map-temp.png'|theme }}" alt="">
+        </div>
+        <!-- GOOGLE MAP -->
+
+        <!-- FORM -->
+        <div class="form-info">
+            <p>
+                Ha kérdése van óvódánkkal kapcsolatban, keressen nyugodtan elérhetőségeinken, vagy hagyjon üzenetet az alábbi űrlap segítségével:
+            </p>
+        </div><!-- form-info -->
+
+
+        {% component 'contactForm' %}
+
+        <!-- FORM -->
+
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+";s:5:"mtime";i:1498587993;s:6:"markup";s:1803:"<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <h1 class="page-title">{{this.page.title}}</h1>
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+
+        <!-- ADDRESS BLOCK -->
+        <ul class="address-block">
+            <li>
+                <i class="material-icons">location_on</i>
+                <p>2086, Tinnye, Petőfi Sándor u.2.</p>
+            </li>
+            <li>
+                <i class="material-icons">phone_in_talk</i>
+                <p>+36 26 355 064</p>
+            </li>
+            <li>
+                <i class="material-icons">phone_in_talk</i>
+                <p>+36 70 458 2466</p>
+            </li>
+            <li>
+                <i class="material-icons">email</i>
+                <p><a href="mailto:ovoda@tinnye.hu">ovoda@tinnye.hu</a></p>
+            </li>
+        </ul><!-- address-block -->
+        <!-- ADDRESS BLOCK -->
+
+        <!-- GOOGLE MAP -->
+        <div class="map-cont">
+            <img src="{{ 'assets/images/map-temp.png'|theme }}" alt="">
+        </div>
+        <!-- GOOGLE MAP -->
+
+        <!-- FORM -->
+        <div class="form-info">
+            <p>
+                Ha kérdése van óvódánkkal kapcsolatban, keressen nyugodtan elérhetőségeinken, vagy hagyjon üzenetet az alábbi űrlap segítségével:
+            </p>
+        </div><!-- form-info -->
+
+
+        {% component 'contactForm' %}
+
+        <!-- FORM -->
+
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->";s:4:"code";N;s:5:"title";s:9:"kapcsolat";s:3:"url";s:10:"/kapcsolat";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";s:23:"genericForm contactForm";a:18:{s:5:"rules";a:3:{s:4:"name";s:8:"required";s:5:"phone";s:8:"required";s:5:"email";s:8:"required";}s:14:"rules_messages";a:4:{s:13:"name.required";s:26:"Név megadása kötelező!";s:14:"phone.required";s:34:"Telefonszám megadása kötelező!";s:14:"email.required";s:33:"E-mail cím megadása kötelező!";s:11:"email.email";s:41:"Valós e-mail cím megadása szükséges!";}s:16:"messages_success";s:31:"Az üzenet sikeresen elküldve!";s:15:"messages_errors";s:22:"Valami hiba történt!";s:12:"mail_enabled";s:1:"1";s:12:"mail_subject";s:21:"Óvoda honlap üzenet";s:15:"mail_recipients";a:1:{i:0;s:20:"andaistvan@gmail.com";}s:12:"mail_replyto";s:21:"ovodavezeto@tinnye.hu";s:17:"mail_resp_enabled";s:1:"1";s:15:"mail_resp_field";s:5:"email";s:14:"mail_resp_from";s:17:"Tengerszem óvoda";s:17:"mail_resp_subject";s:35:"Űrlap üzenet sikeresen elküldve.";s:10:"reset_form";s:1:"1";s:13:"inline_errors";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";}}}

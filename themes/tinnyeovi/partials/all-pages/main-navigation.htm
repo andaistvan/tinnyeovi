@@ -1,0 +1,28 @@
+description = "branding, main navigation"
+
+[viewBag]
+==
+<!-- MAIN - DROPDOWN NAV -->
+<ul id="csoportok-dd" class="dropdown-content">
+    <li class="{% if this.page.id == 'suni-csoport' %}active{% endif %}"><a href="{{ 'csoportok/suni-csoport'|page }}">Süni</a></li>
+    <li class="divider"></li>
+    <li class="{% if this.page.id == 'ozike-csoport' %}active{% endif %}"><a href="{{ 'csoportok/ozike-csoport'|page }}">Őzike</a></li>
+    <li class="divider"></li>
+    <li class="{% if this.page.id == 'nyuszi-csoport' %}active{% endif %}"><a href="{{ 'csoportok/nyuszi-csoport'|page }}">Nyuszi</a></li>
+</ul>
+
+<!-- MAIN NAVIGATION -->
+<nav class="main-navigation">
+    <ul class="left">
+        <li class="{% if this.page.id == 'kezdolap' %}active{% endif %}"><a href="{{ 'hirek/kezdolap'|page }}">Főoldal</a></li>
+        <li class="{% if this.page.id == 'bemutatkozas' %}active{% endif %}"><a href="{{ 'bemutatkozas'|page }}">Bemutatkozás</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-button" href="#!" data-activates="csoportok-dd">Csoportok<i class="material-icons right">arrow_drop_down</i></a></li>
+        <!-- Dropdown Trigger -->
+        <li class="{% if this.page.id == 'dokumentumok' %}active{% endif %}"><a href="{{ 'dokumentumok'|page }}">Dokumentumok</a></li>
+        <li class="{% if this.page.id == 'programok' %}active{% endif %}"><a href="{{ 'programok'|page }}">Programok</a></li>
+        <li class="{% if this.page.id == 'ajanlo' %}active{% endif %}"><a href="{{ 'ajanlo'|page }}">Ajánló</a></li>
+        <li class="{% if this.page.id == 'kepgaleria' %}active{% endif %}"><a href="{{ 'galeria/kepgaleria'|page }}">Képgaléria</a></li>
+        <li class="{% if this.page.id == 'kapcsolat' %}active{% endif %}"><a href="{{ 'kapcsolat'|page }}">Kapcsolat</a></li>
+    </ul>
+</nav>

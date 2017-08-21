@@ -1,0 +1,16 @@
+title = "csoportok"
+url = "/csoportok"
+layout = "main-layout"
+is_hidden = 0
+
+[builderList]
+modelClass = "Arteriaweb\Csoportok\Models\Team"
+scope = "-"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "csoportok/suni-csoport"
+detailsKeyColumn = "id"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}

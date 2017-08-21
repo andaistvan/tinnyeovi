@@ -1,0 +1,10 @@
+name: Pays
+form: $/arteriaweb/programok/models/pay/fields.yaml
+modelClass: Arteriaweb\Programok\Models\Pay
+defaultRedirect: arteriaweb/programok/pays
+create:
+    redirect: 'arteriaweb/programok/pays/update/:id'
+    redirectClose: arteriaweb/programok/pays
+update:
+    redirect: arteriaweb/programok/pays
+    redirectClose: arteriaweb/programok/pays

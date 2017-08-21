@@ -1,0 +1,16 @@
+description = "süni csoport"
+==
+{% set record = suniDetails.record %}
+{% set displayColumn = suniDetails.displayColumn %}
+{% set notFoundMessage = suniDetails.notFoundMessage %}
+
+<h1>süni</h1>
+
+{% if record %}
+    {{ attribute(record, displayColumn) }}
+    
+    {{ record.csoport_title }}
+    
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}

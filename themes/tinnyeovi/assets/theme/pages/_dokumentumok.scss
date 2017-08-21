@@ -1,0 +1,30 @@
+//------------------------
+// DOKUMENTUMOK
+//------------------------
+ul.dokumentum-list{
+    li{
+        border-bottom: 1px solid $secondary-color-light;
+        position: relative;
+        i.material-icons{
+            position: absolute;
+        }
+        p{
+            font-family: 'OpenSans-Bold';
+            font-size: 16px;
+            margin-left: 40px;
+            a{
+                color: $neutral-color;
+            }
+        }
+        &:last-child{
+            // border-bottom: none;
+        }
+    }
+    li:hover{
+        p{
+            a{
+                color: $secondary-color-light;
+            }
+        }
+    }
+}

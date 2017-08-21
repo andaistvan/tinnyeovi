@@ -1,0 +1,21 @@
+plugin:
+    name: 'arteriaweb.programok::lang.plugin.name'
+    description: 'arteriaweb.programok::lang.plugin.description'
+    author: Arteriaweb
+    icon: oc-icon-angellist
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Programok
+        url: arteriaweb/programok/frees
+        icon: icon-angellist
+        order: '3'
+        sideMenu:
+            side-menu-item:
+                label: 'Ingyenes programok'
+                url: arteriaweb/programok/frees
+                icon: icon-angellist
+            side-menu-item2:
+                label: 'Fizetős programok'
+                url: arteriaweb/programok/pays
+                icon: icon-money

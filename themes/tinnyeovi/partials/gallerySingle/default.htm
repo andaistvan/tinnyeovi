@@ -1,0 +1,49 @@
+description = "galéria post"
+
+[galleryId gallery]
+idGallery = 1
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "slide"
+speed = 500
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 200
+width = 300
+resizer = "auto"
+==
+{% set post = gallerySingle.post %}
+
+<h2 class="post-title">{{ post.title }}</h2>
+
+<div class="gallery-container">
+    {% component 'gallery' gallery=post.rjgallery %}
+    <div class="clear"></div>
+</div><!-- gallery-container -->
+
+<div class="content">{{ post.content_html|raw }}</div>
+
+<!-- INFO BAR -->
+    <div class="blog-info-bar">
+        <i class="material-icons">person</i>
+        <p class="info">
+             {{ post.user.first_name }} {{ post.user.last_name }}
+        </p>
+            <!-- {% if post.categories.count %} in {% endif %}
+            {% for category in post.categories %}
+                <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %} -->
+
+        <i class="material-icons">date_range</i>
+        <p class="info">
+            {{ post.published_at|date('Y.m.d.') }}
+        </p>
+    </div><!-- blog-info-bar -->

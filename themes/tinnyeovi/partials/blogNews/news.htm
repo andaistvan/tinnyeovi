@@ -1,0 +1,65 @@
+description = "news archive"
+==
+
+{% set posts = blogNews.posts %}
+
+<ul class="post-list">
+    {% for post in posts %}
+        <li>
+            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+
+<!-- FEAT IMAGE-->
+            <div class="featured-images text-center">
+                {% for image in post.featured_images %}
+                    <p>
+                        <img
+                            data-src="{{ image.filename }}"
+                            src="{{ image.path }}"
+                            alt="{{ image.description }}"
+                            style="max-width: 100%" />
+                    </p>
+                {% endfor %}
+            </div>
+
+<!-- EXCERPT -->
+            <p class="excerpt">{{ post.summary|raw }}</p>
+            
+<!-- INFO BAR -->
+           <!-- <div class="blog-info-bar">
+                <i class="material-icons">person</i>
+                <p class="info">
+                     {{ post.user.first_name }} {{ post.user.last_name }}
+                </p>
+                    
+                <i class="material-icons">date_range</i>
+                <p class="info">
+                    {{ post.published_at|date('Y.m.d.') }}
+                </p>
+            </div> -->
+            <!-- blog-info-bar -->
+
+        </li>
+
+    {% else %}
+        <li class="no-data">{{ noPostsMessage }}</li>
+    {% endfor %}
+
+</ul>
+
+{% if posts.lastPage > 1 %}
+    <ul class="pagination">
+        {% if posts.currentPage > 1 %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage-1) }) }}">&larr; Prev</a></li>
+        {% endif %}
+
+        {% for page in 1..posts.lastPage %}
+            <li class="{{ posts.currentPage == page ? 'active' : null }}">
+                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
+            </li>
+        {% endfor %}
+
+        {% if posts.lastPage > posts.currentPage %}
+            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage+1) }) }}">Next &rarr;</a></li>
+        {% endif %}
+    </ul>
+{% endif %}

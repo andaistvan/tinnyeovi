@@ -1,0 +1,23 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table arteriaweb_csoportok_csop'
+    - builder_table_create_arteriaweb_csoportok_csop.php
+1.0.3:
+    - 'Created table arteriaweb_csoportok_fogl'
+    - builder_table_create_arteriaweb_csoportok_fogl.php
+1.0.4:
+    - 'Updated table arteriaweb_csoportok_csop'
+    - builder_table_update_arteriaweb_csoportok_teams.php
+1.0.5:
+    - 'Updated table arteriaweb_csoportok_fogl'
+    - builder_table_update_arteriaweb_csoportok_subject.php
+1.0.6:
+    - 'Updated table arteriaweb_csoportok_subject'
+    - builder_table_update_arteriaweb_csoportok_subject_2.php
+1.0.7:
+    - 'Updated table arteriaweb_csoportok_subject'
+    - builder_table_update_arteriaweb_csoportok_subjects.php
+1.0.8:
+    - 'Created table arteriaweb_csoportok_teams_subjects'
+    - builder_table_create_arteriaweb_csoportok_teams_subjects.php

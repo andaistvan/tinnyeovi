@@ -1,0 +1,7 @@
+columns:
+    id:
+        label: id
+        type: number
+    subject_title:
+        label: subject_title
+        type: text

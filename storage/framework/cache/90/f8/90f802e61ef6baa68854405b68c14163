@@ -1,0 +1,204 @@
+1503263916a:1:{s:13:"programok.htm";a:9:{s:8:"fileName";s:13:"programok.htm";s:7:"content";s:3480:"title = "Programok"
+url = "/programok"
+layout = "main-layout"
+is_hidden = 0
+==
+<?
+    use Arteriaweb\Programok\Models\Free;
+    use Arteriaweb\Programok\Models\Pay;
+
+    function onStart(){
+        $this['frees'] = Free::get();
+        $this['pays'] = Pay::get();        
+    }
+?>
+==
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <!-- <h1 class="page-title center">{{ this.page.title }}</h1> -->
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+
+    <h1 class="page-title center">{{ this.page.title }}</h1>
+
+    <!-- TABS -->
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s12 m6"><a class="active" href="#free">Ingyenes programok</a></li>
+                <li class="tab col s12 m6"><a href="#pay">Fizetős programok</a></li>
+            </ul>
+        </div>
+
+        <!-- INGYENES -->
+        <div id="free" class="col s12">
+            <ul class="program-content">
+                {% for free in frees %}
+                    <h2 class="program-title">{{ free.title_free }}</h2>
+                    <div class="program-wrapper">
+                        <ul class="program-list">
+                            <li>
+                                <p>Pedagógus: <span>{{ free.pedagogus }}</span></p>
+                            </li>
+                            <li>
+                                <p>Dátum: <span>{{ free.datum }}</span></p>
+                            </li>
+                            <li>
+                                <p>Időpont: <span>{{ free.ido }}</span></p>
+                            </li>
+                        </ul><!-- program-list -->
+                    </div><!-- program-wrapper -->
+                {% endfor %}
+            </ul>
+        
+        </div>
+        <!-- INGYENES -->
+
+
+        <!-- FIZETŐS -->
+        <div id="pay" class="col s12">
+            <ul class="program-content">
+                {% for pay in pays %}
+                    <h2 class="program-title">{{ pay.title_pays }}</h2>
+                    <div class="program-wrapper">
+                        <ul class="program-list">
+                            <li>
+                                <p>Pedagógus: <span>{{ pay.pedagogus }}</span></p>
+                            </li>
+                            <li>
+                                <p>Dátum: <span>{{ pay.datum }}</span></p>
+                            </li>
+                            <li>
+                                <p>Időpont: <span>{{ pay.ido }}</span></p>
+                            </li>
+                            <li>
+                                <p>Ár: <span>{{ pay.price }} Ft</span></p>
+                            </li>
+                             <li>
+                                <p>Fizetési határidő: <span>{{ pay.fiz_hatarido }}</span></p>
+                            </li>
+                        </ul><!-- program-list -->
+                    </div><!-- program-wrapper -->
+                {% endfor %}
+            </ul>
+        
+        </div>
+        <!-- FIZETŐS -->
+    </div><!-- ROW -->
+    <!-- TABS -->
+    
+
+
+
+
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4 margin-top30">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->";s:5:"mtime";i:1503263314;s:6:"markup";s:3196:"<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <!-- <h1 class="page-title center">{{ this.page.title }}</h1> -->
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+
+    <h1 class="page-title center">{{ this.page.title }}</h1>
+
+    <!-- TABS -->
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col s12 m6"><a class="active" href="#free">Ingyenes programok</a></li>
+                <li class="tab col s12 m6"><a href="#pay">Fizetős programok</a></li>
+            </ul>
+        </div>
+
+        <!-- INGYENES -->
+        <div id="free" class="col s12">
+            <ul class="program-content">
+                {% for free in frees %}
+                    <h2 class="program-title">{{ free.title_free }}</h2>
+                    <div class="program-wrapper">
+                        <ul class="program-list">
+                            <li>
+                                <p>Pedagógus: <span>{{ free.pedagogus }}</span></p>
+                            </li>
+                            <li>
+                                <p>Dátum: <span>{{ free.datum }}</span></p>
+                            </li>
+                            <li>
+                                <p>Időpont: <span>{{ free.ido }}</span></p>
+                            </li>
+                        </ul><!-- program-list -->
+                    </div><!-- program-wrapper -->
+                {% endfor %}
+            </ul>
+        
+        </div>
+        <!-- INGYENES -->
+
+
+        <!-- FIZETŐS -->
+        <div id="pay" class="col s12">
+            <ul class="program-content">
+                {% for pay in pays %}
+                    <h2 class="program-title">{{ pay.title_pays }}</h2>
+                    <div class="program-wrapper">
+                        <ul class="program-list">
+                            <li>
+                                <p>Pedagógus: <span>{{ pay.pedagogus }}</span></p>
+                            </li>
+                            <li>
+                                <p>Dátum: <span>{{ pay.datum }}</span></p>
+                            </li>
+                            <li>
+                                <p>Időpont: <span>{{ pay.ido }}</span></p>
+                            </li>
+                            <li>
+                                <p>Ár: <span>{{ pay.price }} Ft</span></p>
+                            </li>
+                             <li>
+                                <p>Fizetési határidő: <span>{{ pay.fiz_hatarido }}</span></p>
+                            </li>
+                        </ul><!-- program-list -->
+                    </div><!-- program-wrapper -->
+                {% endfor %}
+            </ul>
+        
+        </div>
+        <!-- FIZETŐS -->
+    </div><!-- ROW -->
+    <!-- TABS -->
+    
+
+
+
+
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4 margin-top30">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->";s:4:"code";s:195:"    use Arteriaweb\Programok\Models\Free;
+    use Arteriaweb\Programok\Models\Pay;
+
+    function onStart(){
+        $this['frees'] = Free::get();
+        $this['pays'] = Pay::get();        
+    }";s:5:"title";s:9:"Programok";s:3:"url";s:10:"/programok";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";}}

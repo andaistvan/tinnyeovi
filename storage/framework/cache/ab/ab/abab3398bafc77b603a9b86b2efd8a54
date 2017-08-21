@@ -1,0 +1,222 @@
+1503264392a:1:{s:28:"csoportok/nyuszi-csoport.htm";a:9:{s:8:"fileName";s:28:"csoportok/nyuszi-csoport.htm";s:7:"content";s:4019:"title = "Nyuszi csoport"
+url = "/nyuszi-csoport"
+layout = "main-layout"
+is_hidden = 0
+==
+<?
+    use Arteriaweb\Csoportok\Models\Team;
+    function onStart(){
+        $this['teams'] = Team::get();        
+    }
+    
+?>
+==
+<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <!-- <h1 class="page-title center">{{ this.page.title }}</h1> -->
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+
+    <div class="img-cont">
+        <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}">
+    </div>
+
+    <h1 class="page-title center">{{ this.page.title }}</h1>
+
+
+    <ul class="csoport-content">
+        {% for team in teams %}
+            <li>
+                {% if team.id == 3 %}
+                  
+                    <p class="bold">
+                        Pedagógusok:<br>
+                        <span>{{ team.pedagogus_1 }}<br>
+                        {{ team.pedagogus_2 }}</span>         
+                    </p>      
+
+                    <p class="bold">
+                        Dajka:<br>
+                        <span>{{ team.dajka }}</span>         
+                    </p> 
+
+                    <p class="bold">
+                        Pedagógiai asszisztens:<br>
+                        <span>{{ team.ped_asszisztens }}</span>         
+                    </p> 
+
+                    <!--  HETI REND -->
+                    <h2 class="heti-title">Heti rend</h2>
+                    <div class="hetirend-wrapper">
+                        <p class="nap">Hétfő</p>                                                
+                            <ul>
+                                {% for monday in team.hetfo %}
+                                    <li>
+                                        <p>{{ monday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>                        
+                        <p class="nap">Kedd</p>
+                             <ul>
+                                {% for tuesday in team.kedd %}
+                                    <li>
+                                        <p>{{ tuesday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Szerda</p>
+                             <ul>
+                                {% for wednesday in team.szerda %}
+                                    <li>
+                                        <p>{{ wednesday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Csütörtök</p>
+                             <ul>
+                                {% for thursday in team.csutortok %}
+                                    <li>
+                                        <p>{{ thursday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Péntek</p>
+                            <ul class="border-bottom-none">
+                                {% for friday in team.pentek %}
+                                    <li>
+                                        <p>{{ friday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                    </div>
+                    <!--  HETI REND -->
+                    <p>{{ team.description }}</p>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+
+
+
+
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4 margin-top30">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->";s:5:"mtime";i:1503256278;s:6:"markup";s:3798:"<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <!-- <h1 class="page-title center">{{ this.page.title }}</h1> -->
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+
+    <div class="img-cont">
+        <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}">
+    </div>
+
+    <h1 class="page-title center">{{ this.page.title }}</h1>
+
+
+    <ul class="csoport-content">
+        {% for team in teams %}
+            <li>
+                {% if team.id == 3 %}
+                  
+                    <p class="bold">
+                        Pedagógusok:<br>
+                        <span>{{ team.pedagogus_1 }}<br>
+                        {{ team.pedagogus_2 }}</span>         
+                    </p>      
+
+                    <p class="bold">
+                        Dajka:<br>
+                        <span>{{ team.dajka }}</span>         
+                    </p> 
+
+                    <p class="bold">
+                        Pedagógiai asszisztens:<br>
+                        <span>{{ team.ped_asszisztens }}</span>         
+                    </p> 
+
+                    <!--  HETI REND -->
+                    <h2 class="heti-title">Heti rend</h2>
+                    <div class="hetirend-wrapper">
+                        <p class="nap">Hétfő</p>                                                
+                            <ul>
+                                {% for monday in team.hetfo %}
+                                    <li>
+                                        <p>{{ monday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>                        
+                        <p class="nap">Kedd</p>
+                             <ul>
+                                {% for tuesday in team.kedd %}
+                                    <li>
+                                        <p>{{ tuesday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Szerda</p>
+                             <ul>
+                                {% for wednesday in team.szerda %}
+                                    <li>
+                                        <p>{{ wednesday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Csütörtök</p>
+                             <ul>
+                                {% for thursday in team.csutortok %}
+                                    <li>
+                                        <p>{{ thursday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Péntek</p>
+                            <ul class="border-bottom-none">
+                                {% for friday in team.pentek %}
+                                    <li>
+                                        <p>{{ friday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                    </div>
+                    <!--  HETI REND -->
+                    <p>{{ team.description }}</p>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+
+
+
+
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4 margin-top30">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->";s:4:"code";s:122:"    use Arteriaweb\Csoportok\Models\Team;
+    function onStart(){
+        $this['teams'] = Team::get();        
+    }
+    ";s:5:"title";s:14:"Nyuszi csoport";s:3:"url";s:15:"/nyuszi-csoport";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";}}

@@ -1,0 +1,13 @@
+columns:
+    title_free:
+        label: megnevezés
+        type: text
+    pedagogus:
+        label: pedagógus
+        type: text
+    datum:
+        label: dátum
+        type: text
+    ido:
+        label: időpont
+        type: text

@@ -1,0 +1,24 @@
+fields:
+    name:
+        label: 'Dokumentum megnevezése'
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: text
+    pdf_upload:
+        label: 'File feltöltés'
+        oc.commentPosition: ''
+        mode: file
+        fileTypes: pdf
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload
+    pdf_mediafinder:
+        label: 'PDF mediafinder'
+        oc.commentPosition: ''
+        mode: file
+        span: right
+        type: mediafinder

@@ -1,0 +1,11 @@
+description = "süni csoport single"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+    {{ attribute(record, displayColumn) }}
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}

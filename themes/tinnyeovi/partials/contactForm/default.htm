@@ -1,0 +1,50 @@
+description = "kapcsolat form"
+==
+<form data-request="{{ contactForm }}::onFormSubmit">
+
+    {{ form_token() }}
+
+    <div class="form-cont">
+        <!-- name -->
+        <div class="input-field">
+            <input type="text" id="name" name="name">
+            <label for="name" class="mat-label">Név*</label>
+        </div>
+        <!-- name -->
+        <!-- phone -->
+        <div class="input-field">
+            <input type="text" id="phone" name="phone">
+            <label for="phone" class="mat-label">Telefon*</label>
+        </div>
+        <!-- phone -->
+        <!-- email -->
+        <div class="input-field">
+            <input type="text" id="email" name="email">
+            <label for="email" class="mat-label">E-mail*</label>
+        </div>
+        <!-- email -->
+        <!-- textarea -->
+        <div class="input-field">
+            <textarea id="message" class="materialize-textarea" name="message"></textarea>
+            <label for="message">Üzenet</label>
+        </div>
+        <!-- textarea -->
+        <div class="clear"></div>
+
+        <!-- FLASH -->
+        <div class="flash-cont">
+            <div id="{{ contactForm }}_forms_flash"></div>
+        </div><!-- flash-cont -->
+        <div class="clear"></div>
+        <!-- FLASH -->
+
+        <div class="submit-cont">
+            <!-- submit -->
+            <button type="submit" class="waves-effect waves-light btn right">Elküld</button>
+            <!-- submit -->
+        </div><!-- submit cont -->
+
+        <div class="clear"></div>
+    </div><!-- form-cont -->
+
+</form>

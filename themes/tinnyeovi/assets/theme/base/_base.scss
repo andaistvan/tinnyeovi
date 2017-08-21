@@ -1,0 +1,108 @@
+//------------------------
+// BASE THEME settings
+//------------------------
+html, body{
+    width: 100%;
+    background: white;
+    color: $neutral-color;
+}
+
+.clear{
+    clear: both;
+}
+
+.site-wrapper{
+    width: 100%;
+    // max-width: 1600px;
+    // display: table;
+    margin: 0 auto;
+    background: $body-bg;
+}
+.container{
+    width: 90%;
+    max-width: 980px;
+}
+
+//------------------------
+// LAYOUT
+//------------------------
+.fullwidth{
+    width: 100%;
+}
+section#layout-content{
+    // min-height: 90vh;
+    z-index: 1;
+    .container{
+        min-height: 90vh;
+    }
+}
+.row-bottom-zero-margin{
+    margin-bottom: 0px;
+}
+.row-side-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 0px;
+    @media(max-width: 600px){
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.margin-top30{
+    margin-top: 30px;
+}
+
+//------------------------
+// TYPOGRAPHY
+//------------------------
+h1.page-title{
+    font-family: 'Titan One';
+    font-size: 36px;
+    line-height: 41px;
+    color: $secondary-color-light;
+}
+
+h2.post-title{
+    font-family: 'Titan One';
+    font-size: 26px;
+    line-height: 30px;
+    color: $primary-color-dark;
+    a{
+        color: $primary-color-dark;
+        &:hover{
+            color: $primary-color;
+        }
+    }
+}
+
+h3.sidebar-title{
+    font-family: 'Titan One';
+    font-size: 20px;
+    line-height: 30px;
+    color: $secondary-color;
+}
+// h2{
+//     font-family: 'OpenSans-Bold';
+// }
+// h3{
+//     font-family: 'OpenSans'
+// }
+// h4{
+//     font-family: 'OpenSans-Semibold';
+// }
+// h5{
+//     font-family: 'Sarina-Regular';
+// }
+// h3.opensans-condensed-bold{
+//     font-family: 'OpenSans-CondensedBold';
+//     color: blue;
+// }
+// h3.opensans-condensed-light{
+//     font-family: 'OpenSans-CondensedLight';
+//     color: blue;
+// }

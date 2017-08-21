@@ -1,0 +1,50 @@
+1503264392a:1:{s:26:"galeria/galeria-single.htm";a:11:{s:8:"fileName";s:26:"galeria/galeria-single.htm";s:7:"content";s:775:"title = "Galéria single"
+url = "/galeria-single/:slug"
+layout = "main-layout"
+is_hidden = 0
+
+[blogPost gallerySingle]
+slug = "{{ :slug }}"
+categoryPage = 404
+
+[galleryId gallery]
+idGallery = 1
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "false"
+desc = "false"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "slide"
+speed = 500
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 200
+width = 300
+resizer = "auto"
+==
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		{% component 'gallerySingle' %}
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->";s:5:"mtime";i:1498558006;s:6:"markup";s:314:"<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		{% component 'gallerySingle' %}
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->";s:4:"code";N;s:5:"title";s:15:"Galéria single";s:3:"url";s:21:"/galeria-single/:slug";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";s:22:"blogPost gallerySingle";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:3:"404";}s:17:"galleryId gallery";a:18:{s:9:"idGallery";s:1:"1";s:4:"lang";s:7:"Gallery";s:12:"jqueryinject";s:3:"yes";s:9:"thumbnail";s:4:"true";s:7:"caption";s:5:"false";s:4:"desc";s:5:"false";s:7:"counter";s:4:"true";s:8:"controls";s:4:"true";s:7:"preload";s:1:"1";s:4:"mode";s:5:"slide";s:5:"speed";s:3:"500";s:4:"loop";s:4:"true";s:4:"auto";s:5:"false";s:5:"pause";s:4:"2000";s:6:"escKey";s:4:"true";s:6:"height";s:3:"200";s:5:"width";s:3:"300";s:7:"resizer";s:4:"auto";}}}

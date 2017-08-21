@@ -1,0 +1,11 @@
+name: Subjects
+modelClass: Arteriaweb\Csoportok\Models\Subject
+form: $/arteriaweb/csoportok/models/subject/fields.yaml
+defaultRedirect: arteriaweb/csoportok/subjects
+create:
+    redirect: 'arteriaweb/csoportok/subjects/update/:id'
+    redirectClose: arteriaweb/csoportok/subjects
+update:
+    redirect: arteriaweb/csoportok/subjects
+    redirectClose: arteriaweb/csoportok/subjects
+preview: {  }

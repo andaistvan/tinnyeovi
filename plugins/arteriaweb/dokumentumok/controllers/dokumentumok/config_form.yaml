@@ -1,0 +1,10 @@
+name: Dokumentumok
+modelClass: Arteriaweb\Dokumentumok\Models\Dokumentum
+form: $/arteriaweb/dokumentumok/models/dokumentum/fields.yaml
+defaultRedirect: arteriaweb/dokumentumok/dokumentumok
+create:
+    redirect: 'arteriaweb/dokumentumok/dokumentumok/update/:id'
+    redirectClose: arteriaweb/dokumentumok/dokumentumok
+update:
+    redirect: arteriaweb/dokumentumok/dokumentumok
+    redirectClose: arteriaweb/dokumentumok/dokumentumok

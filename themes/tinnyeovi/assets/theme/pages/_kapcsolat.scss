@@ -1,0 +1,62 @@
+//------------------------
+// ADDRESS BLOCK
+//------------------------
+ul.address-block{
+    li{
+        position: relative;
+        i.material-icons{
+            color: $primary-color-dark;
+            position: absolute;
+            top: 8px;
+        }
+        p{
+            font-family: 'Titan One';
+            font-size: 26px;
+            color: $primary-color;
+            padding-left: 35px;
+            margin: 0px;
+            a{
+                color: $primary-color;
+                &:hover{
+                    color: $primary-color-dark;
+                }
+            }
+        }
+    }
+    li:first-child{
+        margin-bottom: 20px;
+    }
+    li:nth-child(3){
+        margin-bottom: 20px;
+    }
+}
+
+//------------------------
+// ADDRESS BLOCK
+//------------------------
+.map-cont{
+    width: 100%;
+    img{
+        max-width: 100%;
+        display: table;
+        margin: auto;
+    }
+}
+
+//------------------------
+// FORM-BLOCK
+//------------------------
+.form-info{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    p{
+        font-family: 'Titan One';
+        font-size: 26px;
+        color: $primary-color;
+        margin: 0px;
+    }
+}
+
+.form-cont{
+    margin-bottom: 30px;
+}

@@ -1,0 +1,42 @@
+//------------------------
+// PROGRAMOK
+//------------------------
+li.tab a{
+    font-family: 'Titan One';
+    font-size: 18px !important;
+}
+
+h2.program-title{
+    font-family: 'Titan One';
+    font-size: 26px;
+    line-height: 30px;
+    color: $primary-color-dark;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.program-wrapper{
+    background: $primary-color;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    color: $secondary-color-light;
+}
+
+ul.program-list{
+    li{
+        p{
+            font-family: 'Titan One';
+            color: white;
+            font-size: 20px;
+            span{
+                background: white;
+                color: $secondary-color-light;
+                padding: 5px;
+                border-radius: 3px;
+            }      
+        }
+    }
+}

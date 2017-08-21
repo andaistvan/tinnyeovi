@@ -1,0 +1,103 @@
+
+//font-awesome
+// @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css);
+
+//materializer icons
+// @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
+@font-face {
+  font-family: 'Material Icons';
+  src: url('..fonts/material-icons/MaterialIcons-Regular.eot');
+  src: url('../fonts/material-icons/MaterialIcons-Regular.woff2') format('woff2'),
+      url('../fonts/material-icons/MaterialIcons-Regular.woff') format('woff'),
+      url('../fonts/material-icons/MaterialIcons-Regular.ttf') format('ttf');
+  font-style: normal;
+  font-weight: 400;
+}
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+// ------- OPEN SANS -------
+// @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+// font-family: 'Open Sans', sans-serif;
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: url('../fonts/opensans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/opensans/OpenSans-Bold.woff') format('woff'), url('OpenSans-Bold.ttf')  format('truetype'),
+        url('../fonts/opensans/OpenSans-Bold.svg#OpenSans-Bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/opensans/OpenSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/opensans/OpenSans.woff') format('woff'), url('OpenSans.ttf')  format('truetype'),
+        url('../fonts/opensans/OpenSans.svg#OpenSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'OpenSans-Semibold';
+    src: url('../fonts/opensans/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/opensans/OpenSans-Semibold.woff') format('woff'), url('OpenSans-Semibold.ttf')  format('truetype'),
+        url('../fonts/opensans/OpenSans-Semibold.svg#OpenSans-Semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+// ------- OPENSANS CONDENSED -------
+@font-face {
+    font-family: 'OpenSans-CondensedBold';
+    src: url('../fonts/opensans-condensed/OpenSans-CondensedBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/opensans-condensed/OpenSans-CondensedBold.woff') format('woff'), url('OpenSans-CondensedBold.ttf')  format('truetype'),
+        url('../fonts/opensans-condensed/OpenSans-CondensedBold.svg#OpenSans-CondensedBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSans-CondensedLight';
+    src: url('../fonts/opensans-condensed/OpenSans-CondensedLight.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/opensans-condensed/OpenSans-CondensedLight.woff') format('woff'), url('OpenSans-CondensedLight.ttf')  format('truetype'),
+        url('../fonts/opensans-condensed/OpenSans-CondensedLight.svg#OpenSans-CondensedLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+// ------- TITAN ONE -------
+@font-face {
+    font-family:'Titan One';
+    src: url('Titan One.eot');
+	src: url('../fonts/titanone/Titan One.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/titanone/Titan One.woff2') format('woff2'),
+		url('../fonts/titanone/Titan One.woff') format('woff'),
+		url('../fonts/titanone/Titan One.ttf') format('truetype'),
+		url('../fonts/titanone/Titan One.otf') format('opentype'),
+		url('../fonts/titanone/Titan One.svg#Titan One') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-FB04;
+}
+
+// ------- SARINA -------
+@font-face {
+    font-family: 'Sarina-Regular';
+    src: url('../fonts/sarina/Sarina-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/sarina/Sarina-Regular.woff') format('woff'),
+        url('../fonts/sarina/Sarina-Regular.ttf')  format('truetype'),
+        url('../fonts/sarina/Sarina-Regular.svg#Sarina-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

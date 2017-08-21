@@ -1,0 +1,88 @@
+title = "kapcsolat"
+url = "/kapcsolat"
+layout = "main-layout"
+is_hidden = 0
+
+[genericForm contactForm]
+rules[name] = "required"
+rules[phone] = "required"
+rules[email] = "required"
+rules_messages[name.required] = "Név megadása kötelező!"
+rules_messages[phone.required] = "Telefonszám megadása kötelező!"
+rules_messages[email.required] = "E-mail cím megadása kötelező!"
+rules_messages[email.email] = "Valós e-mail cím megadása szükséges!"
+messages_success = "Az üzenet sikeresen elküldve!"
+messages_errors = "Valami hiba történt!"
+mail_enabled = 1
+mail_subject = "Óvoda honlap üzenet"
+mail_recipients[] = "andaistvan@gmail.com"
+mail_replyto = "ovodavezeto@tinnye.hu"
+mail_resp_enabled = 1
+mail_resp_field = "email"
+mail_resp_from = "Tengerszem óvoda"
+mail_resp_subject = "Űrlap üzenet sikeresen elküldve."
+reset_form = 1
+inline_errors = "disabled"
+anonymize_ip = "disabled"
+recaptcha_theme = "light"
+recaptcha_type = "image"
+recaptcha_size = "normal"
+==
+<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <h1 class="page-title">{{this.page.title}}</h1>
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+
+        <!-- ADDRESS BLOCK -->
+        <ul class="address-block">
+            <li>
+                <i class="material-icons">location_on</i>
+                <p>2086, Tinnye, Petőfi Sándor u.2.</p>
+            </li>
+            <li>
+                <i class="material-icons">phone_in_talk</i>
+                <p>+36 26 355 064</p>
+            </li>
+            <li>
+                <i class="material-icons">phone_in_talk</i>
+                <p>+36 70 458 2466</p>
+            </li>
+            <li>
+                <i class="material-icons">email</i>
+                <p><a href="mailto:ovoda@tinnye.hu">ovoda@tinnye.hu</a></p>
+            </li>
+        </ul><!-- address-block -->
+        <!-- ADDRESS BLOCK -->
+
+        <!-- GOOGLE MAP -->
+        <div class="map-cont">
+            <img src="{{ 'assets/images/map-temp.png'|theme }}" alt="">
+        </div>
+        <!-- GOOGLE MAP -->
+
+        <!-- FORM -->
+        <div class="form-info">
+            <p>
+                Ha kérdése van óvódánkkal kapcsolatban, keressen nyugodtan elérhetőségeinken, vagy hagyjon üzenetet az alábbi űrlap segítségével:
+            </p>
+        </div><!-- form-info -->
+
+
+        {% component 'contactForm' %}
+
+        <!-- FORM -->
+
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->

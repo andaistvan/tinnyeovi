@@ -1,0 +1,16 @@
+columns:
+    title_pays:
+        label: megnevezés
+        type: text
+    pedagogus:
+        label: pedagógus
+        type: text
+    price:
+        label: ár
+        type: number
+    datum:
+        label: dátum
+        type: text
+    fiz_hatarido:
+        label: 'fizetési határidő'
+        type: text

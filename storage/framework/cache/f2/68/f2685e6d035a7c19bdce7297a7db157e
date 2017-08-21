@@ -1,0 +1,30 @@
+1503264392a:1:{s:22:"hirek/hirek-single.htm";a:10:{s:8:"fileName";s:22:"hirek/hirek-single.htm";s:7:"content";s:478:"title = "Hírek-single"
+url = "/hirek-single/:slug"
+layout = "main-layout"
+is_hidden = 0
+
+[blogPost singleNews]
+slug = "{{ :slug }}"
+categoryPage = 404
+==
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		{% component 'singleNews::singlenews' %}
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->";s:5:"mtime";i:1496840119;s:6:"markup";s:323:"<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		{% component 'singleNews::singlenews' %}
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->";s:4:"code";N;s:5:"title";s:13:"Hírek-single";s:3:"url";s:19:"/hirek-single/:slug";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";s:19:"blogPost singleNews";a:2:{s:4:"slug";s:11:"{{ :slug }}";s:12:"categoryPage";s:3:"404";}}}

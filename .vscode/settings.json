@@ -1,0 +1,8 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "editor.fontFamily": "Source Code Pro",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 30,
+    "editor.autoIndent": true,
+    "explorer.openEditors.visible": 20
+}

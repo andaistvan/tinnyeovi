@@ -1,0 +1,35 @@
+title = "Ajánló"
+url = "/ajanlo/:page?"
+layout = "main-layout"
+is_hidden = 0
+
+[blogPosts blogNews]
+pageNumber = "{{ :page }}"
+categoryFilter = "ajanlas"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = 404
+postPage = "hirek/hirek-single"
+==
+<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <h1 class="page-title">AJÁNLÓ</h1>
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		{% component 'blogNews::News' %}
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->

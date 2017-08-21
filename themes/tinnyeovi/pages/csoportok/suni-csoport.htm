@@ -1,0 +1,116 @@
+title = "Süni csoport"
+url = "/suni-csoport"
+layout = "main-layout"
+is_hidden = 0
+==
+<?
+    use Arteriaweb\Csoportok\Models\Team;
+    function onStart(){
+        $this['teams'] = Team::get();             
+    }
+    
+?>
+==
+<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <!-- <h1 class="page-title center">{{ this.page.title }}</h1> -->
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+
+    <div class="img-cont">
+        <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}">
+    </div>
+
+    <h1 class="page-title center">{{ this.page.title }}</h1>
+
+
+    <ul class="csoport-content">
+        {% for team in teams %}
+            <li>
+                {% if team.id == 1 %}
+                  
+                    <p class="bold">
+                        Pedagógusok:<br>
+                        <span>{{ team.pedagogus_1 }}<br>
+                        {{ team.pedagogus_2 }}</span>         
+                    </p>      
+
+                    <p class="bold">
+                        Dajka:<br>
+                        <span>{{ team.dajka }}</span>         
+                    </p> 
+
+                    <p class="bold">
+                        Pedagógiai asszisztens:<br>
+                        <span>{{ team.ped_asszisztens }}</span>         
+                    </p> 
+
+                    <!--  HETI REND -->
+                    <h2 class="heti-title">Heti rend</h2>
+                    <div class="hetirend-wrapper">
+                        <p class="nap">Hétfő</p>                                                
+                            <ul>
+                                {% for monday in team.hetfo %}
+                                    <li>
+                                        <p>{{ monday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>                        
+                        <p class="nap">Kedd</p>
+                             <ul>
+                                {% for tuesday in team.kedd %}
+                                    <li>
+                                        <p>{{ tuesday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Szerda</p>
+                             <ul>
+                                {% for wednesday in team.szerda %}
+                                    <li>
+                                        <p>{{ wednesday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Csütörtök</p>
+                             <ul>
+                                {% for thursday in team.csutortok %}
+                                    <li>
+                                        <p>{{ thursday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        <p class="nap">Péntek</p>
+                            <ul class="border-bottom-none">
+                                {% for friday in team.pentek %}
+                                    <li>
+                                        <p>{{ friday }}</p>  
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                    </div>
+                    <!--  HETI REND -->
+                    <p>{{ team.description }}</p>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+
+
+
+
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4 margin-top30">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->

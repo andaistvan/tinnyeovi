@@ -1,0 +1,76 @@
+1503261502a:1:{s:25:"gallerySingle/default.htm";a:7:{s:8:"fileName";s:25:"gallerySingle/default.htm";s:7:"content";s:1262:"description = "galéria post"
+
+[galleryId gallery]
+idGallery = 1
+lang = "Gallery"
+jqueryinject = "yes"
+thumbnail = "true"
+caption = "true"
+desc = "true"
+counter = "true"
+controls = "true"
+preload = 1
+mode = "slide"
+speed = 500
+loop = "true"
+auto = "false"
+pause = 2000
+escKey = "true"
+height = 200
+width = 300
+resizer = "auto"
+==
+{% set post = gallerySingle.post %}
+
+<h2 class="post-title">{{ post.title }}</h2>
+
+<div class="gallery-container">
+    {% component 'gallery' gallery=post.rjgallery %}
+    <div class="clear"></div>
+</div><!-- gallery-container -->
+
+<div class="content">{{ post.content_html|raw }}</div>
+
+<!-- INFO BAR -->
+    <div class="blog-info-bar">
+        <i class="material-icons">person</i>
+        <p class="info">
+             {{ post.user.first_name }} {{ post.user.last_name }}
+        </p>
+            <!-- {% if post.categories.count %} in {% endif %}
+            {% for category in post.categories %}
+                <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %} -->
+
+        <i class="material-icons">date_range</i>
+        <p class="info">
+            {{ post.published_at|date('Y.m.d.') }}
+        </p>
+    </div><!-- blog-info-bar -->
+";s:5:"mtime";i:1498557907;s:6:"markup";s:930:"{% set post = gallerySingle.post %}
+
+<h2 class="post-title">{{ post.title }}</h2>
+
+<div class="gallery-container">
+    {% component 'gallery' gallery=post.rjgallery %}
+    <div class="clear"></div>
+</div><!-- gallery-container -->
+
+<div class="content">{{ post.content_html|raw }}</div>
+
+<!-- INFO BAR -->
+    <div class="blog-info-bar">
+        <i class="material-icons">person</i>
+        <p class="info">
+             {{ post.user.first_name }} {{ post.user.last_name }}
+        </p>
+            <!-- {% if post.categories.count %} in {% endif %}
+            {% for category in post.categories %}
+                <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %} -->
+
+        <i class="material-icons">date_range</i>
+        <p class="info">
+            {{ post.published_at|date('Y.m.d.') }}
+        </p>
+    </div><!-- blog-info-bar -->";s:4:"code";N;s:11:"description";s:13:"galéria post";s:17:"galleryId gallery";a:18:{s:9:"idGallery";s:1:"1";s:4:"lang";s:7:"Gallery";s:12:"jqueryinject";s:3:"yes";s:9:"thumbnail";s:4:"true";s:7:"caption";s:4:"true";s:4:"desc";s:4:"true";s:7:"counter";s:4:"true";s:8:"controls";s:4:"true";s:7:"preload";s:1:"1";s:4:"mode";s:5:"slide";s:5:"speed";s:3:"500";s:4:"loop";s:4:"true";s:4:"auto";s:5:"false";s:5:"pause";s:4:"2000";s:6:"escKey";s:4:"true";s:6:"height";s:3:"200";s:5:"width";s:3:"300";s:7:"resizer";s:4:"auto";}}}

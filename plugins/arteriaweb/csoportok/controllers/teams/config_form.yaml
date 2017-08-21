@@ -1,0 +1,11 @@
+name: Teams
+modelClass: Arteriaweb\Csoportok\Models\Team
+form: $/arteriaweb/csoportok/models/team/fields.yaml
+defaultRedirect: arteriaweb/csoportok/teams
+create:
+    redirect: 'arteriaweb/csoportok/teams/update/:id'
+    redirectClose: arteriaweb/csoportok/teams
+update:
+    redirect: arteriaweb/csoportok/teams
+    redirectClose: arteriaweb/csoportok/teams
+preview: {  }

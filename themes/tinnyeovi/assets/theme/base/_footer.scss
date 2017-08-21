@@ -1,0 +1,18 @@
+//------------------------
+// FOOTER
+//------------------------
+footer#layout-footer{
+    width: 100%;
+    .container{
+        background: $primary-color;
+        min-height: 100px;
+    }
+}
+p.footer{
+    a{
+        color: $yellow-t;
+        &:hover{
+            color: $secondary-color;
+        }
+    }
+}

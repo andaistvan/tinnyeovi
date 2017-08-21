@@ -1,0 +1,124 @@
+fields:
+    csoport_datas:
+        label: 'Csoport adatok'
+        span: left
+        type: section
+    pedagogusok_section:
+        label: Pedagógusok
+        span: right
+        type: section
+    title:
+        label: 'Csoport neve'
+        oc.commentPosition: ''
+        span: left
+        type: text
+    pedagogus_1:
+        label: 'pedagógus 1'
+        oc.commentPosition: ''
+        span: right
+        type: text
+    slug:
+        label: slug
+        oc.commentPosition: ''
+        span: auto
+        hidden: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    description:
+        label: 'Csoport leírás'
+        size: small
+        oc.commentPosition: ''
+        span: left
+        type: textarea
+    pedagogus_2:
+        label: 'pedagógus 2'
+        oc.commentPosition: ''
+        span: right
+        type: text
+    dajka:
+        label: dajka
+        oc.commentPosition: ''
+        span: right
+        type: text
+    ped_asszisztens:
+        label: 'pedagógiai asszisztens'
+        oc.commentPosition: ''
+        span: right
+        type: text
+    foglalkozasok_section:
+        label: Foglalkozások
+        span: full
+        type: section
+    hetfo:
+        label: Hétfő
+        oc.commentPosition: ''
+        options:
+            Verselés, mesélés: 'Verselés, mesélés'
+            Ének, zene, énekes játék, gyermektánc: 'Ének, zene, énekes játék, gyermektánc'
+            Rajzolás, festés, mintázás, kézi munka: 'Rajzolás, festés, mintázás, kézi munka'
+            Mozgás: Mozgás
+            A külső világ tevékeny megismerése: 'A külső világ tevékeny megismerése'
+        span: left
+        type: checkboxlist
+    kedd:
+        label: Kedd
+        oc.commentPosition: ''
+        options:
+            Verselés, mesélés: 'Verselés, mesélés'
+            Ének, zene, énekes játék, gyermektánc: 'Ének, zene, énekes játék, gyermektánc'
+            Rajzolás, festés, mintázás, kézi munka: 'Rajzolás, festés, mintázás, kézi munka'
+            Mozgás: Mozgás
+            A külső világ tevékeny megismerése: 'A külső világ tevékeny megismerése'
+        span: right
+        type: checkboxlist
+    szerda:
+        label: Szerda
+        oc.commentPosition: ''
+        options:
+            Verselés, mesélés: 'Verselés, mesélés'
+            Ének, zene, énekes játék, gyermektánc: 'Ének, zene, énekes játék, gyermektánc'
+            Rajzolás, festés, mintázás, kézi munka: 'Rajzolás, festés, mintázás, kézi munka'
+            Mozgás: Mozgás
+            A külső világ tevékeny megismerése: 'A külső világ tevékeny megismerése'
+        span: left
+        type: checkboxlist
+    csutortok:
+        label: Csütörtök
+        oc.commentPosition: ''
+        options:
+            Verselés, mesélés: 'Verselés, mesélés'
+            Ének, zene, énekes játék, gyermektánc: 'Ének, zene, énekes játék, gyermektánc'
+            Rajzolás, festés, mintázás, kézi munka: 'Rajzolás, festés, mintázás, kézi munka'
+            Mozgás: Mozgás
+            A külső világ tevékeny megismerése: 'A külső világ tevékeny megismerése'
+        span: right
+        type: checkboxlist
+    pentek:
+        label: Péntek
+        span: left
+        oc.commentPosition: ''
+        options:
+            Verselés, mesélés: 'Verselés, mesélés'
+            Ének, zene, énekes játék, gyermektánc: 'Ének, zene, énekes játék, gyermektánc'
+            Rajzolás, festés, mintázás, kézi munka: 'Rajzolás, festés, mintázás, kézi munka'
+            Mozgás: Mozgás
+            A külső világ tevékeny megismerése: 'A külső világ tevékeny megismerése'
+        type: checkboxlist
+    foto_section:
+        label: 'Csoport fotó'
+        span: full
+        type: section
+    csoport_foto:
+        label: 'Csoport kép feltöltés'
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '300'
+        imageHeight: '200'
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: left
+        type: fileupload

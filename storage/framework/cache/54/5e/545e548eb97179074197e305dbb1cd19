@@ -1,0 +1,261 @@
+1503264392a:1:{s:26:"styleguide/text-blocks.htm";a:9:{s:8:"fileName";s:26:"styleguide/text-blocks.htm";s:7:"content";s:5393:"title = "text blocks"
+url = "/text-blocks"
+layout = "main-layout"
+is_hidden = 0
+==
+<!-- PARENT: section#layout-content -->
+<div class="container styleguide-container">
+
+    <div class="row row-side-padding">
+        <div class="col s12">
+            <h4 class="center styleguide-title">Features blocks</h4>
+        </div>
+    </div>
+    <div class="divider"></div>
+
+
+
+<!-- 5. #block001 3 col left icon -->
+    <div class="row row-side-padding">
+        <div class="col s12">
+            <h5 class="center styleguide-title">#block002 3 col left icon</h5>
+        </div>
+    </div>
+
+    <div class="row row-side-padding feat-block001">
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="left pri-font">Cégek számára</h3>
+                    <p class="left pri-font">
+                        rendezvények, illetve üzleti konferenciák, személyszállítással kapcsolatos lebonyolítása, igény esetén idegenvezető biztosításával
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="left pri-font">Utazási irodáknak</h3>
+                    <p class="left pri-font">
+                        személyszállítással kapcsolatos programjainak lebonyolítása, szervezése. Alvállalkozóinkkal karöltve, minden megbízást magas színvonalon tudunk biztosítani megrendelőink számára
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="left pri-font">Privát</h3>
+                    <p class="left pri-font">
+                        üzletemberek, magánemberek, turista csoportok, szállítása ill. privát túrájának megszervezése
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+    </div><!-- row row-side-padding feat-block001 -->
+    <div class="divider"></div>
+    <!-- 5. #block001 3 col left icon -->
+
+
+    <!-- 6. #block002 3 col center icon -->
+    <div class="row row-side-padding">
+        <div class="col s12">
+            <h5 class="center styleguide-title">#block002 3 col center icon</h5>
+        </div>
+    </div>
+
+    <div class="row row-side-padding feat-block002">
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="center pri-font">Cégek számára</h3>
+                    <p class="center pri-font">
+                        rendezvények, illetve üzleti konferenciák, személyszállítással kapcsolatos lebonyolítása, igény esetén idegenvezető biztosításával
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="center pri-font">Utazási irodáknak</h3>
+                    <p class="center pri-font">
+                        személyszállítással kapcsolatos programjainak lebonyolítása, szervezése. Alvállalkozóinkkal karöltve, minden megbízást magas színvonalon tudunk biztosítani megrendelőink számára
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="center pri-font">Privát</h3>
+                    <p class="center pri-font">
+                        üzletemberek, magánemberek, turista csoportok, szállítása ill. privát túrájának megszervezése
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+
+    </div><!-- row row-side-padding feat-block002 -->
+    <div class="divider"></div>
+    <!-- 6. #block002 3 col center icon -->
+
+
+
+
+
+
+</div><!-- container styleguide-container -->
+";s:5:"mtime";i:1492986904;s:6:"markup";s:5309:"<!-- PARENT: section#layout-content -->
+<div class="container styleguide-container">
+
+    <div class="row row-side-padding">
+        <div class="col s12">
+            <h4 class="center styleguide-title">Features blocks</h4>
+        </div>
+    </div>
+    <div class="divider"></div>
+
+
+
+<!-- 5. #block001 3 col left icon -->
+    <div class="row row-side-padding">
+        <div class="col s12">
+            <h5 class="center styleguide-title">#block002 3 col left icon</h5>
+        </div>
+    </div>
+
+    <div class="row row-side-padding feat-block001">
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="left pri-font">Cégek számára</h3>
+                    <p class="left pri-font">
+                        rendezvények, illetve üzleti konferenciák, személyszállítással kapcsolatos lebonyolítása, igény esetén idegenvezető biztosításával
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="left pri-font">Utazási irodáknak</h3>
+                    <p class="left pri-font">
+                        személyszállítással kapcsolatos programjainak lebonyolítása, szervezése. Alvállalkozóinkkal karöltve, minden megbízást magas színvonalon tudunk biztosítani megrendelőink számára
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="left pri-font">Privát</h3>
+                    <p class="left pri-font">
+                        üzletemberek, magánemberek, turista csoportok, szállítása ill. privát túrájának megszervezése
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+    </div><!-- row row-side-padding feat-block001 -->
+    <div class="divider"></div>
+    <!-- 5. #block001 3 col left icon -->
+
+
+    <!-- 6. #block002 3 col center icon -->
+    <div class="row row-side-padding">
+        <div class="col s12">
+            <h5 class="center styleguide-title">#block002 3 col center icon</h5>
+        </div>
+    </div>
+
+    <div class="row row-side-padding feat-block002">
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="center pri-font">Cégek számára</h3>
+                    <p class="center pri-font">
+                        rendezvények, illetve üzleti konferenciák, személyszállítással kapcsolatos lebonyolítása, igény esetén idegenvezető biztosításával
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="center pri-font">Utazási irodáknak</h3>
+                    <p class="center pri-font">
+                        személyszállítással kapcsolatos programjainak lebonyolítása, szervezése. Alvállalkozóinkkal karöltve, minden megbízást magas színvonalon tudunk biztosítani megrendelőink számára
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+        <div class="col s12 m4">
+            <div class="features-wrapper">
+                <div class="feat-icon-cont">
+                    <i class="fa fa-building"></i>
+                </div><!-- feat-icon-cont -->
+                <div class="feat-content">
+                    <h3 class="center pri-font">Privát</h3>
+                    <p class="center pri-font">
+                        üzletemberek, magánemberek, turista csoportok, szállítása ill. privát túrájának megszervezése
+                    </p>
+                </div><!-- feat-content -->
+            </div><!-- features-wrapper -->
+        </div><!-- col s12 m4 -->
+
+
+    </div><!-- row row-side-padding feat-block002 -->
+    <div class="divider"></div>
+    <!-- 6. #block002 3 col center icon -->
+
+
+
+
+
+
+</div><!-- container styleguide-container -->";s:4:"code";N;s:5:"title";s:11:"text blocks";s:3:"url";s:12:"/text-blocks";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";}}

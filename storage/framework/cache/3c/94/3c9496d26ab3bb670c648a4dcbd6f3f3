@@ -1,0 +1,65 @@
+1503264391a:1:{s:16:"bemutatkozas.htm";a:9:{s:8:"fileName";s:16:"bemutatkozas.htm";s:7:"content";s:2150:"title = "Bemutatkozás"
+url = "/bemutatkozas"
+layout = "main-layout"
+is_hidden = 0
+==
+<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <h1 class="page-title">{{this.page.title}}</h1>
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		<p>
+            There are many kinds of narratives and organizing principles. Science is driven by evidence gathered in experiments, and by the falsification of extant theories and their replacement with newer, asymptotically truer, ones. Other systems – religion, nationalism, paranoid ideation, or art – are based on personal experiences (faith, inspiration, paranoia, etc.).
+		</p>
+        <p>
+            Experiential narratives can and do interact with evidential narratives and vice versa. For instance: belief in God inspires some scientists who regard science as a method to “peek at God’s cards” and to get closer to Him. Another example: the pursuit of scientific endeavors enhances one’s national pride and is motivated by it. Science is often corrupted in order to support nationalistic and racist claims.
+        </p>
+        <p>
+            The basic units of all narratives are known by their effects on the environment. God, in this sense, is no different from electrons, quarks, and black holes. All four constructs cannot be directly observed, but the fact of their existence is derived from their effects.
+        </p>
+        <p>
+            Granted, God’s effects are discernible only in the social and psychological (or psychopathological) realms. But this observed constraint doesn’t render Him less “real”. The hypothesized existence of God parsimoniously explains a myriad ostensibly unrelated phenomena and, therefore, conforms to the rules governing the formulation of scientific theories.
+        </p>
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+";s:5:"mtime";i:1498560818;s:6:"markup";s:2063:"<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <h1 class="page-title">{{this.page.title}}</h1>
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		<p>
+            There are many kinds of narratives and organizing principles. Science is driven by evidence gathered in experiments, and by the falsification of extant theories and their replacement with newer, asymptotically truer, ones. Other systems – religion, nationalism, paranoid ideation, or art – are based on personal experiences (faith, inspiration, paranoia, etc.).
+		</p>
+        <p>
+            Experiential narratives can and do interact with evidential narratives and vice versa. For instance: belief in God inspires some scientists who regard science as a method to “peek at God’s cards” and to get closer to Him. Another example: the pursuit of scientific endeavors enhances one’s national pride and is motivated by it. Science is often corrupted in order to support nationalistic and racist claims.
+        </p>
+        <p>
+            The basic units of all narratives are known by their effects on the environment. God, in this sense, is no different from electrons, quarks, and black holes. All four constructs cannot be directly observed, but the fact of their existence is derived from their effects.
+        </p>
+        <p>
+            Granted, God’s effects are discernible only in the social and psychological (or psychopathological) realms. But this observed constraint doesn’t render Him less “real”. The hypothesized existence of God parsimoniously explains a myriad ostensibly unrelated phenomena and, therefore, conforms to the rules governing the formulation of scientific theories.
+        </p>
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->";s:4:"code";N;s:5:"title";s:13:"Bemutatkozás";s:3:"url";s:13:"/bemutatkozas";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";}}

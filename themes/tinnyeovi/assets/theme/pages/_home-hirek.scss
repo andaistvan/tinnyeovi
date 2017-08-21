@@ -1,0 +1,43 @@
+//------------------------
+// HOME-HÍREK
+//------------------------
+
+// Hero section
+section#hero-section .hero-cont{
+    width: 100%;
+    img{
+        max-width: 100%;
+    }
+}
+
+//------------------------
+// HÍREK ARCHIVE
+//------------------------
+.featured-images .text-center{
+    width: 100%;
+}
+.featured-images .text-center img{
+    
+}
+ul.post-list{
+    margin-top: 0px;
+}
+
+//------------------------
+// INFO BAR
+//------------------------
+.blog-info-bar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 90px;
+    p.info{
+        line-height: 14px;
+        font-size: 14px;
+        display: inline-block;
+        margin-right: 5px;
+    }
+    i.material-icons{
+        font-size: 14px;
+        line-height: 14px;
+    }
+}

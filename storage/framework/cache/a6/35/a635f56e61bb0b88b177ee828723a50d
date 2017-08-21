@@ -1,0 +1,53 @@
+1503264398a:1:{s:10:"social.htm";a:6:{s:8:"fileName";s:10:"social.htm";s:7:"content";s:807:"<div class="col s12">
+    <div class="aw-social-buttons fixed-action-btn horizontal">
+    <a class="btn-floating btn-large">
+        <i class="large material-icons">thumb_up</i>
+    </a>
+        <ul>
+            <li>
+                <a class="btn-floating blue darken-4" href="https://www.facebook.com/laratify" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+                <a class="btn-floating blue" href="https://twitter.com/laratify" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a class="btn-floating orange darken-4" href="https://octobercms.com/author/laratify" target="_blank"><i class="fa fa-leaf fa-rotate-270"></i></a>
+            </li>            
+        </ul>
+    </div>
+</div>
+";s:5:"mtime";i:1496846384;s:6:"markup";s:805:"<div class="col s12">
+    <div class="aw-social-buttons fixed-action-btn horizontal">
+    <a class="btn-floating btn-large">
+        <i class="large material-icons">thumb_up</i>
+    </a>
+        <ul>
+            <li>
+                <a class="btn-floating blue darken-4" href="https://www.facebook.com/laratify" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+                <a class="btn-floating blue" href="https://twitter.com/laratify" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a class="btn-floating orange darken-4" href="https://octobercms.com/author/laratify" target="_blank"><i class="fa fa-leaf fa-rotate-270"></i></a>
+            </li>            
+        </ul>
+    </div>
+</div>";s:4:"code";N;s:12:"parsedMarkup";s:805:"<div class="col s12">
+    <div class="aw-social-buttons fixed-action-btn horizontal">
+    <a class="btn-floating btn-large">
+        <i class="large material-icons">thumb_up</i>
+    </a>
+        <ul>
+            <li>
+                <a class="btn-floating blue darken-4" href="https://www.facebook.com/laratify" target="_blank"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+                <a class="btn-floating blue" href="https://twitter.com/laratify" target="_blank"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+                <a class="btn-floating orange darken-4" href="https://octobercms.com/author/laratify" target="_blank"><i class="fa fa-leaf fa-rotate-270"></i></a>
+            </li>            
+        </ul>
+    </div>
+</div>";}}

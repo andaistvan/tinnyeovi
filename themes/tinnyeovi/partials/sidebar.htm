@@ -1,0 +1,50 @@
+description = "sidebar"
+
+[blogPosts sidebarPosts]
+pageNumber = "{{ :page }}"
+categoryFilter = "hirek"
+postsPerPage = 5
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = 404
+postPage = "hirek/hirek-single"
+==
+<div id="sidebar-wrapper">
+
+    <div class="sidebar-section">
+        <h3 class="sidebar-title">Legutóbbi hírek</h3>
+        {% component 'sidebarPosts::sidebarposts' %}
+    </div><!-- sidebar-section -->
+
+    <div class="sidebar-section">
+        <h3 class="sidebar-title">Napirend</h3>
+        <ul class="napirend">
+            <li>
+                <p><span>Gyülekező:</span> 8:30</p>
+            </li>
+            <li>
+                <p><span>Ebéd:</span> 12:00</p>
+            </li>
+            <li>
+                <p><span>Csendes pihenő:</span> 13:00 - 15:00</p>
+            </li>
+        </ul>
+
+    </div><!-- sidebar-section -->
+
+    <div class="sidebar-section">
+        <h3 class="sidebar-title">Hasznos linkek</h3>
+        <ul class="hasznos-linkek">
+            <li>
+                <a href="http://tinnye.hu">Tinnye honlapja</a>
+            </li>
+            <li>
+                <a href="#">Cédrus Tánceggyüttes</a>
+            </li>
+            <li>
+                <a href="http://tinnye.hu">Zeneovi képek</a>
+            </li>
+        </ul>
+    </div><!-- sidebar-section -->
+
+</div> <!-- sidebar-wrapper -->

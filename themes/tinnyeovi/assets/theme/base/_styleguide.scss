@@ -1,0 +1,222 @@
+// ==========================================================================
+// STYLEGUIDE GLOBALS
+// ==========================================================================
+//
+// Table of contents
+//
+// 1. styleguide GLOBALS
+// 2. color palette
+// 3. primary & secondary fonts
+// 4. installed fonts
+// 5. #block001 3 col left icon
+// 6. #block002 3 col center icon
+// ==========================================================================
+
+// 1. styleguide GLOBALS
+// ===================================
+.container.styleguide-container{
+    background: white;
+    width: 85%;
+}
+
+
+.styleguide-title{
+    color: $secondary-color-light;
+}
+
+// 2. color palette
+// ==========================================================================
+#color-palette{
+    // background: white;
+}
+.palette{
+    border-radius: 6px;
+    display: table;
+    margin: 0px auto;
+    background: white;
+    border: 1px solid rgba(0,0,0,0.14);
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.04);
+}
+
+ul.colors-cont{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    margin: 0px;
+    // max-width: 162px;
+    li{
+        margin: 0px;
+        padding: 0px;
+        float: left;
+    }
+}
+
+.palette-primary-lighten,
+.palette-primary,
+.palette-primary-darken,
+.palette-secondary-lighten,
+.palette-secondary,
+.palette-secondary-darken,
+.palette-neutral-lighten,
+.palette-neutral,
+.palette-neutral-darken{
+    width: 54px;
+    height: 63px;
+    display: inline-block;
+}
+// Primary colors
+.palette-primary-lighten{
+    background: $primary-color-light;
+    border-top-left-radius: 6px;
+}
+.palette-primary{
+    background: $primary-color;
+}
+.palette-primary-darken{
+    background: $primary-color-dark;
+    border-top-right-radius: 6px;
+}
+// Secondary colors
+.palette-secondary-lighten{
+    background: $secondary-color-light;
+    border-top-left-radius: 6px;
+}
+.palette-secondary{
+    background: $secondary-color;
+}
+.palette-secondary-darken{
+    background: $secondary-color-dark;
+    border-top-right-radius: 6px;
+}
+// Neutral colors
+.palette-neutral-lighten{
+    background: $neutral-color-light;
+    border-top-left-radius: 6px;
+}
+.palette-neutral{
+    background: $neutral-color;
+}
+.palette-neutral-darken{
+    background: $neutral-color-dark;
+    border-top-right-radius: 6px;
+}
+
+
+.palette-title{
+    font-size: 10px;
+    font-family: 'roboto';
+    color: black;
+    font-weight: bold;
+}
+
+// 3. primary & secondary fonts
+// ==========================================================================
+#fonts-section{
+    // background: white;
+}
+
+.pri-font{
+    font-family: $pri-font;
+}
+
+.sec-font{
+    font-family: $sec-font;
+}
+
+// 4. installed fonts
+// ==========================================================================
+#installed-fonts{
+    // background: white;
+}
+.font-roboto{
+    font-family: $font-roboto;
+}
+.font-raleway{
+    font-family: $font-raleway;
+}
+.font-lato{
+    font-family: $font-lato;
+}
+.font-opensans{
+    font-family: $font-opensans;
+}
+.font-oswald{
+    font-family: $font-oswald;
+}
+
+
+// 5. #block001 3 col left icon
+// ==========================================================================
+.feat-block001 .features-wrapper{
+    display: table;
+    // background: $secondary-color-light;
+}
+.feat-block001 .feat-icon-cont{
+    display: table-cell;
+    vertical-align: top;
+}
+.feat-block001 .feat-icon-cont i.fa{
+    font-size: 40px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 3px 15px 3px 3px;
+    //icon background
+    color: $primary-color-dark;
+    background: $primary-color-light;
+    border-radius: 100%;
+    border: 3px solid orange;
+    @media (max-width: 800px){
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+}
+.feat-block001 .feat-content h3{
+    font-size: 2em;
+    margin-top: 15px;
+    font-weight: bold;
+    @media (max-width: 800px){
+        margin-top: 10px;
+    }
+}
+.feat-block001 .feat-content p{
+    margin-top: 0px;
+}
+
+
+// 6. #block002 3 col center icon
+// ==========================================================================
+.feat-block002 .features-wrapper{
+    display: table;
+    // background: $secondary-color-light;
+}
+.feat-block002 .feat-icon-cont{
+    display: table;
+    margin: 0 auto;
+}
+.feat-block002 .feat-icon-cont i.fa{
+    font-size: 40px;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    margin: 10px auto;
+    //icon background
+    color: $primary-color-dark;
+    background: $primary-color-light;
+    border-radius: 100%;
+    border: 3px solid orange;
+}
+.feat-block002 .feat-content h3{
+    font-size: 2em;
+    margin-top: 15px;
+    font-weight: bold;
+    @media (max-width: 800px){
+        margin-top: 10px;
+    }
+}
+.feat-block002 .feat-content p{
+    margin-top: 0px;
+}

@@ -1,0 +1,77 @@
+1503261517a:1:{s:25:"singleNews/singlenews.htm";a:6:{s:8:"fileName";s:25:"singleNews/singlenews.htm";s:7:"content";s:1359:"description = "hírek - single"
+==
+{% set post = singleNews.post %}
+
+<h2 class="post-title">{{ post.title }}</h2>
+
+
+
+{% if post.featured_images.count %}
+    <div class="featured-images text-center">
+        {% for image in post.featured_images %}
+            <p>
+                <img
+                    data-src="{{ image.filename }}"
+                    src="{{ image.path }}"
+                    alt="{{ image.description }}"
+                    style="max-width: 100%" />
+            </p>
+        {% endfor %}
+    </div>
+{% endif %}
+
+<div class="content">{{ post.content_html|raw }}</div>
+
+<!-- INFO BAR -->
+            <div class="blog-info-bar">
+                <i class="material-icons">person</i>
+                <p class="info">
+                     {{ post.user.first_name }} {{ post.user.last_name }}
+                </p>
+                    <!-- {% if post.categories.count %} in {% endif %}
+                    {% for category in post.categories %}
+                        <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %} -->
+
+                <i class="material-icons">date_range</i>
+                <p class="info">
+                    {{ post.published_at|date('Y.m.d.') }}
+                </p>
+            </div><!-- blog-info-bar -->";s:5:"mtime";i:1496762550;s:6:"markup";s:1324:"{% set post = singleNews.post %}
+
+<h2 class="post-title">{{ post.title }}</h2>
+
+
+
+{% if post.featured_images.count %}
+    <div class="featured-images text-center">
+        {% for image in post.featured_images %}
+            <p>
+                <img
+                    data-src="{{ image.filename }}"
+                    src="{{ image.path }}"
+                    alt="{{ image.description }}"
+                    style="max-width: 100%" />
+            </p>
+        {% endfor %}
+    </div>
+{% endif %}
+
+<div class="content">{{ post.content_html|raw }}</div>
+
+<!-- INFO BAR -->
+            <div class="blog-info-bar">
+                <i class="material-icons">person</i>
+                <p class="info">
+                     {{ post.user.first_name }} {{ post.user.last_name }}
+                </p>
+                    <!-- {% if post.categories.count %} in {% endif %}
+                    {% for category in post.categories %}
+                        <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                    {% endfor %} -->
+
+                <i class="material-icons">date_range</i>
+                <p class="info">
+                    {{ post.published_at|date('Y.m.d.') }}
+                </p>
+            </div><!-- blog-info-bar -->";s:4:"code";N;s:11:"description";s:15:"hírek - single";}}

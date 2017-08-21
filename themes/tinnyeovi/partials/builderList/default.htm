@@ -1,0 +1,20 @@
+description = "dokumentum lista"
+==
+{% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+<ul class="record-list dokumentum-list">
+    {% for record in records %}
+        <li>
+            <i class="material-icons">picture_as_pdf</i>
+            <p><a href="{{ record.pdf_upload.path }}" target="blank">{{ record.name }}</a></p>
+            <img src="{{ record.pdf_upload.thumb(200,auto) }}" alt="">
+        </li>
+    {% else %}
+        <li class="no-data">{{ noRecordsMessage }}</li>
+    {% endfor %}
+</ul>

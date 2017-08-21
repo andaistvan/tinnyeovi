@@ -1,0 +1,12 @@
+plugin:
+    name: 'arteriaweb.dokumentumok::lang.plugin.name'
+    description: 'arteriaweb.dokumentumok::lang.plugin.description'
+    author: Arteriaweb
+    icon: oc-icon-align-justify
+    homepage: 'http://arteriaweb.hu'
+navigation:
+    main-menu-item:
+        label: Dokumentumok
+        url: /arteriaweb/dokumentumok/dokumentumok
+        icon: icon-align-justify
+        order: '1'

@@ -1,0 +1,128 @@
+1503264398a:1:{s:20:"all-pages/header.htm";a:6:{s:8:"fileName";s:20:"all-pages/header.htm";s:7:"content";s:3696:"description = "default header"
+==
+<!-- PARENT: header#layout-header -->
+<div class="container">
+    <div id="header-topbar">
+        <!-- BRANDING BOX -->
+        <div class="branding-box left">
+            <a href="{{ 'hirek/kezdolap'|page }}" class="brand-logo">
+                Tengerszem <span>óvóda</span>
+            </a>
+        </div><!--  branding-box-->
+        <!-- WELCOME TEXT -->
+        <div class="welcome-text right hide-on-med-and-down">
+            <p class="welcome">Sok szeretettel várunk<br>minden kedves gyereket!</p>
+        </div><!-- welcome-text -->
+
+        <!-- MOBIL TOGGLE -->
+        <div class="mobil-toggle-cont hide-on-large-only right">
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i><p class="toggle-text">MENÜ</p></a>
+            <div class="clear"></div>
+        </div><!-- mobil-toggle-cont -->
+
+        <!-- MOBIL NAVIGATION -->
+        <ul id="slide-out" class="side-nav">
+            <li class="{% if this.page.id == 'kezdolap' %}active{% endif %}"><a href="{{ 'hirek/kezdolap'|page }}">Főoldal</a></li>
+            <li class="{% if this.page.id == 'bemutatkozas' %}active{% endif %}"><a href="{{ 'bemutatkozas'|page }}">Bemutatkozás</a></li>
+            <!-- Collapsible Accordion dedicated -->
+                <ul class="collapsible collapsible-accordion">
+                    <li>
+                        <a class="collapsible-header">Csoportok<i class="material-icons right">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul class="mobil-submenu">
+                                <li class="{% if this.page.id == 'suni-csoport' %}active{% endif %}"><a href="{{ 'csoportok/suni-csoport'|page }}">Süni</a></li>
+                                <li class="divider divider-nav"></li>
+                                <li class="{% if this.page.id == 'ozike-csoport' %}active{% endif %}"><a href="{{ 'csoportok/ozike-csoport'|page }}">Őzike</a></li>
+                                <li class="divider divider-nav"></li>
+                                <li class="{% if this.page.id == 'nyuszi-csoport' %}active{% endif %}"><a href="{{ 'csoportok/nyuszi-csoport'|page }}">Nyuszi</a></li>
+                                <li class="divider divider-nav"></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            <!-- Collapsible Accordion dedicated -->
+            <li class="{% if this.page.id == 'dokumentumok' %}active{% endif %}"><a href="{{ 'dokumentumok'|page }}">Dokumentumok</a></li>
+            <li class="{% if this.page.id == 'programok' %}active{% endif %}"><a href="{{ 'programok'|page }}">Programok</a></li>
+            <li class="{% if this.page.id == 'kepgaleria' %}active{% endif %}"><a href="{{ 'galeria/kepgaleria'|page }}">Képgaléria</a></li>
+            <li class="{% if this.page.id == 'ajanlo' %}active{% endif %}"><a href="{{ 'ajanlo'|page }}">Ajánló</a></li>
+            <li class="{% if this.page.id == 'kapcsolat' %}active{% endif %}"><a href="{{ 'kapcsolat'|page }}">Kapcsolat</a></li>
+        </ul>
+        <!-- MOBIL NAVIGATION -->
+    </div><!-- header-topbar -->
+
+    <div class="color-bar-cont">
+        <div class="color-bar bg-sec-color-light"></div>
+        <div class="color-bar green-t"></div>
+        <div class="color-bar yellow-t"></div>
+        <!-- <div class="color-bar"></div> -->
+        <div class="clear"></div>
+    </div><!-- color-bar-cont -->
+
+    <div class="navigation-bar hide-on-med-and-down">
+        {% partial 'all-pages/main-navigation'%}
+    </div>
+</div><!-- container -->
+<!-- TOP BAR -->
+";s:5:"mtime";i:1498586366;s:6:"markup";s:3661:"<!-- PARENT: header#layout-header -->
+<div class="container">
+    <div id="header-topbar">
+        <!-- BRANDING BOX -->
+        <div class="branding-box left">
+            <a href="{{ 'hirek/kezdolap'|page }}" class="brand-logo">
+                Tengerszem <span>óvóda</span>
+            </a>
+        </div><!--  branding-box-->
+        <!-- WELCOME TEXT -->
+        <div class="welcome-text right hide-on-med-and-down">
+            <p class="welcome">Sok szeretettel várunk<br>minden kedves gyereket!</p>
+        </div><!-- welcome-text -->
+
+        <!-- MOBIL TOGGLE -->
+        <div class="mobil-toggle-cont hide-on-large-only right">
+            <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i><p class="toggle-text">MENÜ</p></a>
+            <div class="clear"></div>
+        </div><!-- mobil-toggle-cont -->
+
+        <!-- MOBIL NAVIGATION -->
+        <ul id="slide-out" class="side-nav">
+            <li class="{% if this.page.id == 'kezdolap' %}active{% endif %}"><a href="{{ 'hirek/kezdolap'|page }}">Főoldal</a></li>
+            <li class="{% if this.page.id == 'bemutatkozas' %}active{% endif %}"><a href="{{ 'bemutatkozas'|page }}">Bemutatkozás</a></li>
+            <!-- Collapsible Accordion dedicated -->
+                <ul class="collapsible collapsible-accordion">
+                    <li>
+                        <a class="collapsible-header">Csoportok<i class="material-icons right">arrow_drop_down</i></a>
+                        <div class="collapsible-body">
+                            <ul class="mobil-submenu">
+                                <li class="{% if this.page.id == 'suni-csoport' %}active{% endif %}"><a href="{{ 'csoportok/suni-csoport'|page }}">Süni</a></li>
+                                <li class="divider divider-nav"></li>
+                                <li class="{% if this.page.id == 'ozike-csoport' %}active{% endif %}"><a href="{{ 'csoportok/ozike-csoport'|page }}">Őzike</a></li>
+                                <li class="divider divider-nav"></li>
+                                <li class="{% if this.page.id == 'nyuszi-csoport' %}active{% endif %}"><a href="{{ 'csoportok/nyuszi-csoport'|page }}">Nyuszi</a></li>
+                                <li class="divider divider-nav"></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            <!-- Collapsible Accordion dedicated -->
+            <li class="{% if this.page.id == 'dokumentumok' %}active{% endif %}"><a href="{{ 'dokumentumok'|page }}">Dokumentumok</a></li>
+            <li class="{% if this.page.id == 'programok' %}active{% endif %}"><a href="{{ 'programok'|page }}">Programok</a></li>
+            <li class="{% if this.page.id == 'kepgaleria' %}active{% endif %}"><a href="{{ 'galeria/kepgaleria'|page }}">Képgaléria</a></li>
+            <li class="{% if this.page.id == 'ajanlo' %}active{% endif %}"><a href="{{ 'ajanlo'|page }}">Ajánló</a></li>
+            <li class="{% if this.page.id == 'kapcsolat' %}active{% endif %}"><a href="{{ 'kapcsolat'|page }}">Kapcsolat</a></li>
+        </ul>
+        <!-- MOBIL NAVIGATION -->
+    </div><!-- header-topbar -->
+
+    <div class="color-bar-cont">
+        <div class="color-bar bg-sec-color-light"></div>
+        <div class="color-bar green-t"></div>
+        <div class="color-bar yellow-t"></div>
+        <!-- <div class="color-bar"></div> -->
+        <div class="clear"></div>
+    </div><!-- color-bar-cont -->
+
+    <div class="navigation-bar hide-on-med-and-down">
+        {% partial 'all-pages/main-navigation'%}
+    </div>
+</div><!-- container -->
+<!-- TOP BAR -->";s:4:"code";N;s:11:"description";s:14:"default header";}}

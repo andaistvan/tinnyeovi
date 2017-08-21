@@ -1,0 +1,72 @@
+//------------------------
+// CSOPORTOK
+//------------------------
+.img-cont{
+    .csop-image{
+        text-align: center;
+        display: table;
+        margin: 50px auto 0 auto;
+        text-align: center;
+    }
+}
+
+ul.csoport-content{
+    p.bold{
+        font-weight: bold;
+        text-align: center;
+        span{
+            font-weight: normal;
+        }
+    }
+}
+
+//------------------------
+// HETI REND
+//------------------------
+h2.heti-title{
+    font-family: 'Titan One';
+    font-size: 26px;
+    line-height: 30px;
+    color: $primary-color-dark;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hetirend-wrapper{
+    background: $primary-color;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    color: $secondary-color-light;
+}
+
+.hetirend-wrapper ul{
+    border-bottom: 1px solid $primary-color-dark;    
+    padding-bottom: 20px;
+}
+
+.hetirend-wrapper ul.border-bottom-none{
+    border-bottom: none;
+}
+
+.hetirend-wrapper li{
+    display: table;
+    margin: auto;   
+}
+
+.hetirend-wrapper p{
+    font-size: 18px;
+    line-height: 1.25em;
+    font-family: 'Titan One';
+    background: white;
+    padding: 5px;
+    border-radius: 3px;
+    margin: 5px auto;
+}
+
+.hetirend-wrapper p.nap{
+    color: white;
+    background: none;
+    font-size: 25px;
+}

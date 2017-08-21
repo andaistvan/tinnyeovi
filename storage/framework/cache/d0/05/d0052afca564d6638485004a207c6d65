@@ -1,0 +1,57 @@
+1503264392a:1:{s:22:"galeria/kepgaleria.htm";a:10:{s:8:"fileName";s:22:"galeria/kepgaleria.htm";s:7:"content";s:925:"title = "Képgaléria"
+url = "/kepgaleria/:page?"
+layout = "main-layout"
+is_hidden = 0
+
+[blogPosts galleryArchive]
+pageNumber = "{{ :page }}"
+categoryFilter = "kepgaleria"
+postsPerPage = 10
+noPostsMessage = "No posts found"
+sortOrder = "published_at desc"
+categoryPage = 404
+postPage = "galeria/galeria-single"
+==
+<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <h1 class="page-title">Képgaléria</h1>
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		<!-- post list: kepgaleria -->
+		{% component 'galleryArchive' %}
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->";s:5:"mtime";i:1498557071;s:6:"markup";s:611:"<!-- PAGE TITLE -->
+<div class="row row-side-padding row-bottom-zero-margin">
+    <div class="col s12">
+        <h1 class="page-title">Képgaléria</h1>
+    </div><!-- col-s12 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->
+<div class="row row-side-padding">
+    <!-- HÍREK CONTENT -->
+    <div class="col s12 m8">
+		<!-- post list: kepgaleria -->
+		{% component 'galleryArchive' %}
+    </div><!-- col s12 m8 -->
+
+    <!-- SIDEBAR -->
+    <div class="col s12 m4">
+        {% partial 'sidebar' %}
+    </div><!-- col s12 m4 -->
+</div><!-- row row-side-padding -->
+
+<!-- CONTENT -->";s:4:"code";N;s:5:"title";s:12:"Képgaléria";s:3:"url";s:18:"/kepgaleria/:page?";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";s:24:"blogPosts galleryArchive";a:7:{s:10:"pageNumber";s:11:"{{ :page }}";s:14:"categoryFilter";s:10:"kepgaleria";s:12:"postsPerPage";s:2:"10";s:14:"noPostsMessage";s:14:"No posts found";s:9:"sortOrder";s:17:"published_at desc";s:12:"categoryPage";s:3:"404";s:8:"postPage";s:22:"galeria/galeria-single";}}}

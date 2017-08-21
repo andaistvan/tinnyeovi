@@ -1,0 +1,11 @@
+name: Frees
+modelClass: Arteriaweb\Programok\Models\Free
+form: $/arteriaweb/programok/models/free/fields.yaml
+defaultRedirect: arteriaweb/programok/frees
+create:
+    redirect: 'arteriaweb/programok/frees/update/:id'
+    redirectClose: arteriaweb/programok/frees
+update:
+    redirect: arteriaweb/programok/frees
+    redirectClose: arteriaweb/programok/frees
+preview: {  }

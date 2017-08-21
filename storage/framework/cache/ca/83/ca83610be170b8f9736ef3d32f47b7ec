@@ -1,0 +1,16 @@
+1503264392a:1:{s:23:"csoportok/csoportok.htm";a:10:{s:8:"fileName";s:23:"csoportok/csoportok.htm";s:7:"content";s:362:"title = "csoportok"
+url = "/csoportok"
+layout = "main-layout"
+is_hidden = 0
+
+[builderList]
+modelClass = "Arteriaweb\Csoportok\Models\Team"
+scope = "-"
+displayColumn = "title"
+noRecordsMessage = "No records found"
+detailsPage = "csoportok/suni-csoport"
+detailsKeyColumn = "id"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% component 'builderList' %}";s:5:"mtime";i:1503235328;s:6:"markup";s:29:"{% component 'builderList' %}";s:4:"code";N;s:5:"title";s:9:"csoportok";s:3:"url";s:10:"/csoportok";s:6:"layout";s:11:"main-layout";s:9:"is_hidden";s:1:"0";s:11:"builderList";a:8:{s:10:"modelClass";s:32:"Arteriaweb\Csoportok\Models\Team";s:5:"scope";s:1:"-";s:13:"displayColumn";s:5:"title";s:16:"noRecordsMessage";s:16:"No records found";s:11:"detailsPage";s:22:"csoportok/suni-csoport";s:16:"detailsKeyColumn";s:2:"id";s:19:"detailsUrlParameter";s:2:"id";s:10:"pageNumber";s:11:"{{ :page }}";}}}

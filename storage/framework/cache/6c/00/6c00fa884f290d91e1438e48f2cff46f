@@ -1,0 +1,28 @@
+1503264398a:1:{s:20:"all-pages/footer.htm";a:6:{s:8:"fileName";s:20:"all-pages/footer.htm";s:7:"content";s:639:"description = "default footer"
+==
+<!-- PARENT: footer#layout-footer -->
+<div class="container">
+    <div class="color-bar-cont">
+        <div class="color-bar bg-sec-color-light"></div>
+        <div class="color-bar green-t"></div>
+        <div class="color-bar yellow-t"></div>
+        <!-- <div class="color-bar"></div> -->
+        <div class="clear"></div>
+    </div><!-- color-bar-cont -->
+
+        <p class="footer white-text center-align">Copyright © 2017 Tengerszem Óvóda. Minden jog fenntartva.</p>
+        <p class="footer white-text center-align">Weboldal készítés: <a href="http://arteriaweb.hu">arteriaweb</a></p>
+</div>
+";s:5:"mtime";i:1496700070;s:6:"markup";s:604:"<!-- PARENT: footer#layout-footer -->
+<div class="container">
+    <div class="color-bar-cont">
+        <div class="color-bar bg-sec-color-light"></div>
+        <div class="color-bar green-t"></div>
+        <div class="color-bar yellow-t"></div>
+        <!-- <div class="color-bar"></div> -->
+        <div class="clear"></div>
+    </div><!-- color-bar-cont -->
+
+        <p class="footer white-text center-align">Copyright © 2017 Tengerszem Óvóda. Minden jog fenntartva.</p>
+        <p class="footer white-text center-align">Weboldal készítés: <a href="http://arteriaweb.hu">arteriaweb</a></p>
+</div>";s:4:"code";N;s:11:"description";s:14:"default footer";}}

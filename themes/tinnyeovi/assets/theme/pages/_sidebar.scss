@@ -1,0 +1,79 @@
+//------------------------
+// SIDEBAR UTOLSÓ HÍREK
+//------------------------
+#sidebar-wrapper{
+    width: 100%;
+    // background: lightgray;
+    padding: 15px 15px 30px 15px
+}
+
+h3.sidebar-title{
+    margin: 0px;
+}
+
+#sidebar-wrapper ul.post-list{
+    li{
+        border-bottom: 1px solid $secondary-color;
+        padding: 10px 0;
+        &:last-child{
+            border-bottom: none;
+        }
+        h4{
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 1.5em;
+            margin: 0px;
+            a{
+                color: $neutral-color;
+
+            }
+        }
+    }
+    li:hover{
+        h4{
+            a{
+                color: $secondary-color;
+            }
+        }
+    }
+}
+
+//------------------------
+// SIDEBAR NAPIREND
+//------------------------
+ul.napirend{
+    li{
+        font-family: 'OpenSans';
+        p{
+            span{
+                font-family: 'OpenSans-Bold'
+            }
+        }
+    }
+}
+
+//------------------------
+// SIDEBAR HASZNOS LINKEK
+//------------------------
+ul.hasznos-linkek{
+    margin: 0px;
+    li{
+        border-bottom: 1px solid $secondary-color;
+        padding: 10px 0;
+        &:last-child{
+            border-bottom: none;
+        }
+        a{
+            font-family: 'OpenSans';
+            font-size: 14px;
+            line-height: 1.5em;
+            margin: 0px;
+            color: $neutral-color;
+        }
+    }
+    li:hover{
+        a{
+            color: $secondary-color;
+        }
+    }
+}

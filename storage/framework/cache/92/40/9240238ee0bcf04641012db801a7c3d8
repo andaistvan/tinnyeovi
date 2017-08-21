@@ -1,0 +1,22 @@
+1503264398a:1:{s:16:"meta/scripts.htm";a:6:{s:8:"fileName";s:16:"meta/scripts.htm";s:7:"content";s:363:"description = "site scripts"
+==
+<script src="{{ [
+    'assets/vendor/materialize/js/bin/materialize.min.js',
+    'assets/vendor/wow/dist/wow.min.js',
+    'assets/vendor/isotope/isotope.pkgd.min.js',
+    'assets/js/theme-init.js'
+]|theme }}"></script>
+
+<!-- 'assets/vendor/bootstrap-ui/bootstrap.js', -->
+
+<!-- 'assets/vendor/bootstrap-ui/bootstrap-alert.js', -->
+";s:5:"mtime";i:1498596796;s:6:"markup";s:330:"<script src="{{ [
+    'assets/vendor/materialize/js/bin/materialize.min.js',
+    'assets/vendor/wow/dist/wow.min.js',
+    'assets/vendor/isotope/isotope.pkgd.min.js',
+    'assets/js/theme-init.js'
+]|theme }}"></script>
+
+<!-- 'assets/vendor/bootstrap-ui/bootstrap.js', -->
+
+<!-- 'assets/vendor/bootstrap-ui/bootstrap-alert.js', -->";s:4:"code";N;s:11:"description";s:12:"site scripts";}}

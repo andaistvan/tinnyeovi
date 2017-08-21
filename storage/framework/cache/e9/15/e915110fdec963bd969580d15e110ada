@@ -1,0 +1,24 @@
+1503264398a:1:{s:29:"sidebarPosts/sidebarposts.htm";a:6:{s:8:"fileName";s:29:"sidebarPosts/sidebarposts.htm";s:7:"content";s:339:"description = "friss hírek"
+==
+{% set posts = sidebarPosts.posts %}
+
+<ul class="post-list">
+    {% for post in posts %}
+        <li>
+            <h4 class="sidebar-list"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        </li>
+    {% else %}
+        <li class="no-data">{{ noPostsMessage }}</li>
+    {% endfor %}
+</ul>
+";s:5:"mtime";i:1496844513;s:6:"markup";s:305:"{% set posts = sidebarPosts.posts %}
+
+<ul class="post-list">
+    {% for post in posts %}
+        <li>
+            <h4 class="sidebar-list"><a href="{{ post.url }}">{{ post.title }}</a></h4>
+        </li>
+    {% else %}
+        <li class="no-data">{{ noPostsMessage }}</li>
+    {% endfor %}
+</ul>";s:4:"code";N;s:11:"description";s:12:"friss hírek";}}

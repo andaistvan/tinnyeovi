@@ -1,0 +1,21 @@
+plugin:
+    name: 'arteriaweb.csoportok::lang.plugin.name'
+    description: 'arteriaweb.csoportok::lang.plugin.description'
+    author: Arteriaweb
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Csoportok
+        url: /arteriaweb/csoportok/teams
+        icon: icon-group
+        order: '1'
+        sideMenu:
+            side-menu-item2:
+                label: Csoportok
+                url: arteriaweb/csoportok/teams
+                icon: icon-group
+            side-menu-item:
+                label: Foglalkozások
+                url: arteriaweb/csoportok/subjects
+                icon: icon-skyatlas
