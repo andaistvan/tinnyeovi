@@ -21,20 +21,3 @@ description = "hírek - single"
 {% endif %}
 
 <div class="content">{{ post.content_html|raw }}</div>
-
-<!-- INFO BAR -->
-            <div class="blog-info-bar">
-                <i class="material-icons">person</i>
-                <p class="info">
-                     {{ post.user.first_name }} {{ post.user.last_name }}
-                </p>
-                    <!-- {% if post.categories.count %} in {% endif %}
-                    {% for category in post.categories %}
-                        <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
-                    {% endfor %} -->
-
-                <i class="material-icons">date_range</i>
-                <p class="info">
-                    {{ post.published_at|date('Y.m.d.') }}
-                </p>
-            </div><!-- blog-info-bar -->

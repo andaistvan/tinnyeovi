@@ -1,4 +1,4 @@
-1503261495a:1:{s:17:"blogNews/News.htm";a:6:{s:8:"fileName";s:17:"blogNews/News.htm";s:7:"content";s:2162:"description = "news archive"
+1503341214a:1:{s:17:"blogNews/News.htm";a:6:{s:8:"fileName";s:17:"blogNews/News.htm";s:7:"content";s:2162:"description = "news archive"
 ==
 
 {% set posts = blogNews.posts %}

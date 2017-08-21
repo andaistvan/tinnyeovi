@@ -28,15 +28,8 @@ class Team extends Model
 
     protected $jsonable = ['hetfo', 'kedd', 'szerda', 'csutortok', 'pentek'];
     
-    public $attachOne =[
+    public $attachOne = [
         'csoport_foto' => 'System\Models\File'
     ];
-    // public $belongsToMany = [
-    //     'hetfo' => [
-    //         'Arteriaweb\Csoportok\Models\Subject',
-    //         'table' => 'arteriaweb_csoportok_teams_subjects',
-    //     ]        
-    // ];
-
     
 }

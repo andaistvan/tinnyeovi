@@ -7581,3 +7581,6 @@ Stack trace:
 #53 /Applications/MAMP/htdocs/tinnyeovi/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(87): Illuminate\Foundation\Http\Kernel->sendRequestThroughRouter(Object(Illuminate\Http\Request))
 #54 /Applications/MAMP/htdocs/tinnyeovi/index.php(43): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #55 {main}  
+[2017-08-21 18:38:22] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'public' (T_PUBLIC), expecting ',' or ';' or '{'' in /Applications/MAMP/htdocs/tinnyeovi/storage/cms/cache/d9/9b/ozike-csoport.htm.php:6
+Stack trace:
+#0 {main}  

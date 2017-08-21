@@ -1,4 +1,4 @@
-1503264392a:1:{s:18:"hirek/kezdolap.htm";a:11:{s:8:"fileName";s:18:"hirek/kezdolap.htm";s:7:"content";s:1246:"title = "kezdőlap"
+1503341208a:1:{s:18:"hirek/kezdolap.htm";a:11:{s:8:"fileName";s:18:"hirek/kezdolap.htm";s:7:"content";s:1257:"title = "kezdőlap"
 url = "/:page?"
 layout = "main-layout"
 description = "Óvóda - friss hírek"
@@ -18,7 +18,7 @@ postPage = "hirek/hirek-single"
     <div class="row row-bottom-zero-margin">
         <div class="col s12">
             <div class="hero-cont">
-                <img src="{{ 'assets/images/hero-image/hero-temp-img.jpg'|theme }}" alt="Tengerszem Óvóda fotó">
+                <img src="{{ 'assets/images/hero-image/hero-rajz.png'|theme }}" alt="Tengerszem Óvóda fotó">
             </div>
         </div>
     </div>
@@ -44,12 +44,12 @@ postPage = "hirek/hirek-single"
     </div><!-- col s12 m4 -->
 </div><!-- row row-side-padding -->
 
-<!-- CONTENT -->";s:5:"mtime";i:1498994480;s:6:"markup";s:922:"<!-- HERO SECTION -->
+<!-- CONTENT -->";s:5:"mtime";i:1503335258;s:6:"markup";s:918:"<!-- HERO SECTION -->
 <section id="hero-section">
     <div class="row row-bottom-zero-margin">
         <div class="col s12">
             <div class="hero-cont">
-                <img src="{{ 'assets/images/hero-image/hero-temp-img.jpg'|theme }}" alt="Tengerszem Óvóda fotó">
+                <img src="{{ 'assets/images/hero-image/hero-rajz.png'|theme }}" alt="Tengerszem Óvóda fotó">
             </div>
         </div>
     </div>

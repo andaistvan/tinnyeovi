@@ -1,4 +1,4 @@
-1503264392a:1:{s:26:"galeria/galeria-single.htm";a:11:{s:8:"fileName";s:26:"galeria/galeria-single.htm";s:7:"content";s:775:"title = "Galéria single"
+1503341208a:1:{s:26:"galeria/galeria-single.htm";a:11:{s:8:"fileName";s:26:"galeria/galeria-single.htm";s:7:"content";s:775:"title = "Galéria single"
 url = "/galeria-single/:slug"
 layout = "main-layout"
 is_hidden = 0

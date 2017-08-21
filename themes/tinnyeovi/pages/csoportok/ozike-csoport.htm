@@ -4,6 +4,7 @@ layout = "main-layout"
 is_hidden = 0
 ==
 <?
+    use System\Models\File;
     use Arteriaweb\Csoportok\Models\Team;
     function onStart(){
         $this['teams'] = Team::get();        
@@ -24,7 +25,8 @@ is_hidden = 0
     <div class="col s12 m8">
 
     <div class="img-cont">
-        <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}">
+        <!-- <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}"> -->
+        <img src="{{ team.csoport_foto.path }}">
     </div>
 
     <h1 class="page-title center">{{ this.page.title }}</h1>
@@ -96,7 +98,7 @@ is_hidden = 0
                             </ul>
                     </div>
                     <!--  HETI REND -->
-                    <p>{{ team.description }}</p>
+                    <p class="csop-desc">{{ team.description }}</p>
                 {% endif %}
             </li>
         {% endfor %}

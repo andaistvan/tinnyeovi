@@ -1,4 +1,4 @@
-1503264392a:1:{s:22:"hirek/hirek-single.htm";a:10:{s:8:"fileName";s:22:"hirek/hirek-single.htm";s:7:"content";s:478:"title = "Hírek-single"
+1503341208a:1:{s:22:"hirek/hirek-single.htm";a:10:{s:8:"fileName";s:22:"hirek/hirek-single.htm";s:7:"content";s:478:"title = "Hírek-single"
 url = "/hirek-single/:slug"
 layout = "main-layout"
 is_hidden = 0

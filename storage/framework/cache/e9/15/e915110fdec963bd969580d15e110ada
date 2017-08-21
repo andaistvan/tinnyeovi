@@ -1,4 +1,4 @@
-1503264398a:1:{s:29:"sidebarPosts/sidebarposts.htm";a:6:{s:8:"fileName";s:29:"sidebarPosts/sidebarposts.htm";s:7:"content";s:339:"description = "friss hírek"
+1503341214a:1:{s:29:"sidebarPosts/sidebarposts.htm";a:6:{s:8:"fileName";s:29:"sidebarPosts/sidebarposts.htm";s:7:"content";s:339:"description = "friss hírek"
 ==
 {% set posts = sidebarPosts.posts %}
 

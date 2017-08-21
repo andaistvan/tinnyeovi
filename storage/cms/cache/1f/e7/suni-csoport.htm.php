@@ -1,5 +1,5 @@
 <?php 
-use Arteriaweb\Csoportok\Models\Team;class Cms5999e94492251889408111_9bb53ff3c3f0834c433a68b05123734bClass extends \Cms\Classes\PageCode
+use Arteriaweb\Csoportok\Models\Team;class Cms599b2849711ce439329151_77a558dbc1884f97156d13c8719a5579Class extends \Cms\Classes\PageCode
 {
 
     

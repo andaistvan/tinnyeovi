@@ -1,9 +1,10 @@
-1503264392a:1:{s:27:"csoportok/ozike-csoport.htm";a:9:{s:8:"fileName";s:27:"csoportok/ozike-csoport.htm";s:7:"content";s:4018:"title = "Őzike-csoport"
+1503341311a:1:{s:27:"csoportok/ozike-csoport.htm";a:9:{s:8:"fileName";s:27:"csoportok/ozike-csoport.htm";s:7:"content";s:4122:"title = "Őzike-csoport"
 url = "/ozike-csoport"
 layout = "main-layout"
 is_hidden = 0
 ==
 <?
+    use System\Models\File;
     use Arteriaweb\Csoportok\Models\Team;
     function onStart(){
         $this['teams'] = Team::get();        
@@ -24,7 +25,8 @@ is_hidden = 0
     <div class="col s12 m8">
 
     <div class="img-cont">
-        <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}">
+        <!-- <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}"> -->
+        <img src="{{ team.csoport_foto.path }}">
     </div>
 
     <h1 class="page-title center">{{ this.page.title }}</h1>
@@ -96,7 +98,7 @@ is_hidden = 0
                             </ul>
                     </div>
                     <!--  HETI REND -->
-                    <p>{{ team.description }}</p>
+                    <p class="csop-desc">{{ team.description }}</p>
                 {% endif %}
             </li>
         {% endfor %}
@@ -113,7 +115,7 @@ is_hidden = 0
     </div><!-- col s12 m4 -->
 </div><!-- row row-side-padding -->
 
-<!-- CONTENT -->";s:5:"mtime";i:1503256267;s:6:"markup";s:3798:"<!-- PAGE TITLE -->
+<!-- CONTENT -->";s:5:"mtime";i:1503340709;s:6:"markup";s:3874:"<!-- PAGE TITLE -->
 <div class="row row-side-padding row-bottom-zero-margin">
     <div class="col s12">
         <!-- <h1 class="page-title center">{{ this.page.title }}</h1> -->
@@ -126,7 +128,8 @@ is_hidden = 0
     <div class="col s12 m8">
 
     <div class="img-cont">
-        <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}">
+        <!-- <img class="csop-image" src="{{ 'assets/images/csoportok/suni-foto.png'|theme }}"> -->
+        <img src="{{ team.csoport_foto.path }}">
     </div>
 
     <h1 class="page-title center">{{ this.page.title }}</h1>
@@ -198,7 +201,7 @@ is_hidden = 0
                             </ul>
                     </div>
                     <!--  HETI REND -->
-                    <p>{{ team.description }}</p>
+                    <p class="csop-desc">{{ team.description }}</p>
                 {% endif %}
             </li>
         {% endfor %}
@@ -215,7 +218,8 @@ is_hidden = 0
     </div><!-- col s12 m4 -->
 </div><!-- row row-side-padding -->
 
-<!-- CONTENT -->";s:4:"code";s:122:"    use Arteriaweb\Csoportok\Models\Team;
+<!-- CONTENT -->";s:4:"code";s:150:"    use System\Models\File;
+    use Arteriaweb\Csoportok\Models\Team;
     function onStart(){
         $this['teams'] = Team::get();        
     }

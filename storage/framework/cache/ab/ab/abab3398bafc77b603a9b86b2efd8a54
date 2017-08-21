@@ -1,4 +1,4 @@
-1503264392a:1:{s:28:"csoportok/nyuszi-csoport.htm";a:9:{s:8:"fileName";s:28:"csoportok/nyuszi-csoport.htm";s:7:"content";s:4019:"title = "Nyuszi csoport"
+1503341208a:1:{s:28:"csoportok/nyuszi-csoport.htm";a:9:{s:8:"fileName";s:28:"csoportok/nyuszi-csoport.htm";s:7:"content";s:4037:"title = "Nyuszi csoport"
 url = "/nyuszi-csoport"
 layout = "main-layout"
 is_hidden = 0
@@ -96,7 +96,7 @@ is_hidden = 0
                             </ul>
                     </div>
                     <!--  HETI REND -->
-                    <p>{{ team.description }}</p>
+                    <p class="csop-desc">{{ team.description }}</p>
                 {% endif %}
             </li>
         {% endfor %}
@@ -113,7 +113,7 @@ is_hidden = 0
     </div><!-- col s12 m4 -->
 </div><!-- row row-side-padding -->
 
-<!-- CONTENT -->";s:5:"mtime";i:1503256278;s:6:"markup";s:3798:"<!-- PAGE TITLE -->
+<!-- CONTENT -->";s:5:"mtime";i:1503339527;s:6:"markup";s:3816:"<!-- PAGE TITLE -->
 <div class="row row-side-padding row-bottom-zero-margin">
     <div class="col s12">
         <!-- <h1 class="page-title center">{{ this.page.title }}</h1> -->
@@ -198,7 +198,7 @@ is_hidden = 0
                             </ul>
                     </div>
                     <!--  HETI REND -->
-                    <p>{{ team.description }}</p>
+                    <p class="csop-desc">{{ team.description }}</p>
                 {% endif %}
             </li>
         {% endfor %}
